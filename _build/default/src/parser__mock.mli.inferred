@@ -1,0 +1,72 @@
+type token =
+    YESTERDAY
+  | XOR
+  | VERSION
+  | UNTIL
+  | TYPE_DECL_START
+  | TYPE_DECL_ENDS
+  | TYPE
+  | TRUE
+  | STRING of string
+  | SINCE
+  | SEMICOLON
+  | RPAREN
+  | REGULATION
+  | RBRACKET
+  | POLICY_START
+  | POLICY_END
+  | OR
+  | ONCE
+  | NOTEQUALS
+  | NOT
+  | NEXT
+  | LPAREN
+  | LESSEQ
+  | LESS
+  | LBRACKET
+  | INT of int
+  | IMPLIES
+  | IFF
+  | ID of string
+  | HISTORICALLY
+  | GREATEREQ
+  | GREATER
+  | FORALL
+  | FALSE
+  | EXISTS
+  | EVENTUALLY
+  | EQUALS
+  | EOF
+  | EFFECTIVE_DATE
+  | DOT
+  | CONST of string
+  | COMMA
+  | AT_LBRACKET
+  | AND
+  | ALWAYS
+val menhir_begin_marker : int
+val xv_version_clause : string
+val xv_type_list : string list
+val xv_type_declaration_section : string list
+val xv_timebound : int * int
+val xv_terminated_annotated_formula_SEMICOLON_ : Ast.formula
+val xv_term : Ast.term
+val xv_simple_formula : Ast.formula
+val xv_separated_nonempty_list_COMMA_term_ : Ast.term list
+val xv_separated_nonempty_list_COMMA_ID_ : string list
+val xv_separated_list_COMMA_term_ : Ast.term list
+val xv_regulation_metadata : Ast.regulation_metadata
+val xv_policy_section : Ast.formula list
+val xv_option_version_clause_ : string option
+val xv_option_type_declaration_section_ : string list option
+val xv_option_timebound_ : (int * int) option
+val xv_option_regulation_metadata_ : Ast.regulation_metadata option
+val xv_option_effective_date_clause_ : string option
+val xv_main : Ast.policy_file
+val xv_loption_separated_nonempty_list_COMMA_term__ : Ast.term list
+val xv_list_terminated_annotated_formula_SEMICOLON__ : Ast.formula list
+val xv_formula : Ast.formula
+val xv_effective_date_clause : string
+val xv_atomic_formula : Ast.formula
+val xv_annotated_formula : Ast.formula
+val menhir_end_marker : int

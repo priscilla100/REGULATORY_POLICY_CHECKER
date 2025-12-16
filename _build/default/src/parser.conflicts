@@ -1,0 +1,64 @@
+
+** Conflict (shift/reduce) in state 102.
+** Tokens involved: XOR UNTIL SINCE OR IMPLIES IFF AND
+** The following explanations concentrate on token XOR.
+** This state is reached from main after reading:
+
+option(regulation_metadata) option(type_declaration_section) POLICY_START FORALL separated_nonempty_list(COMMA,ID) DOT formula
+
+** The derivations that appear below have the following common factor:
+** (The question mark symbol (?) represents the spot where the derivations begin to differ.)
+
+main 
+option(regulation_metadata) option(type_declaration_section) policy_section EOF 
+                                                             POLICY_START list(terminated(annotated_formula,SEMICOLON)) POLICY_END 
+                                                                          annotated_formula SEMICOLON list(terminated(annotated_formula,SEMICOLON)) 
+                                                                          formula 
+                                                                          (?)
+
+** In state 102, looking ahead at XOR, shifting is permitted
+** because of the following sub-derivation:
+
+simple_formula 
+FORALL separated_nonempty_list(COMMA,ID) DOT formula 
+                                             formula . XOR formula 
+
+** In state 102, looking ahead at XOR, reducing production
+** simple_formula -> FORALL separated_nonempty_list(COMMA,ID) DOT formula
+** is permitted because of the following sub-derivation:
+
+formula XOR formula // lookahead token appears
+simple_formula // lookahead token is inherited
+FORALL separated_nonempty_list(COMMA,ID) DOT formula . 
+
+** Conflict (shift/reduce) in state 85.
+** Tokens involved: XOR UNTIL SINCE OR IMPLIES IFF AND
+** The following explanations concentrate on token XOR.
+** This state is reached from main after reading:
+
+option(regulation_metadata) option(type_declaration_section) POLICY_START EXISTS separated_nonempty_list(COMMA,ID) DOT formula
+
+** The derivations that appear below have the following common factor:
+** (The question mark symbol (?) represents the spot where the derivations begin to differ.)
+
+main 
+option(regulation_metadata) option(type_declaration_section) policy_section EOF 
+                                                             POLICY_START list(terminated(annotated_formula,SEMICOLON)) POLICY_END 
+                                                                          annotated_formula SEMICOLON list(terminated(annotated_formula,SEMICOLON)) 
+                                                                          formula 
+                                                                          (?)
+
+** In state 85, looking ahead at XOR, shifting is permitted
+** because of the following sub-derivation:
+
+simple_formula 
+EXISTS separated_nonempty_list(COMMA,ID) DOT formula 
+                                             formula . XOR formula 
+
+** In state 85, looking ahead at XOR, reducing production
+** simple_formula -> EXISTS separated_nonempty_list(COMMA,ID) DOT formula
+** is permitted because of the following sub-derivation:
+
+formula XOR formula // lookahead token appears
+simple_formula // lookahead token is inherited
+EXISTS separated_nonempty_list(COMMA,ID) DOT formula . 

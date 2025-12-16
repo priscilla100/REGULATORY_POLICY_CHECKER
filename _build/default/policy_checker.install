@@ -1,0 +1,11 @@
+lib: [
+  "_build/install/default/lib/policy_checker/META"
+  "_build/install/default/lib/policy_checker/dune-package"
+  "_build/install/default/lib/policy_checker/opam"
+]
+bin: [
+  "_build/install/default/bin/precis"
+]
+doc: [
+  "_build/install/default/doc/policy_checker/README.md"
+]
