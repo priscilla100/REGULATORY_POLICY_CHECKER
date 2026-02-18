@@ -9,12 +9,10 @@ from datetime import datetime
 from dotenv import load_dotenv
 from utils.utils import MultiRegulationPipeline
 from utils.display import display_unified_result
-from pages.baseline import experiment_baseline
-from pages.rag import RAGPolicyExporter, experiment_rag
+from strategy.baseline import experiment_baseline
+from strategy.rag import RAGPolicyExporter, experiment_rag
 from config import get_precis_path
-from pages.methodology import render_methodology_page
-from pages.pipeline_two_tier import pipeline_with_two_tier_verification
-from pages.multi_agent_two_tier import multi_agent_with_two_tier_verification
+from strategy.methodology import render_methodology_page
 from utils.comparison_utils import display_comparison_table_st
 from utils.pipeline_integrated import pipeline_with_two_tier_verification
 from utils.multi_agent_integrated import multi_agent_with_two_tier_verification
