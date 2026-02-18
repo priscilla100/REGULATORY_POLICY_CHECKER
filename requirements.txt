@@ -10,3 +10,7 @@ numpy
 requests
 pdfplumber
 PyPDF2
+google-genai     
+sentence-transformers 
+rank-bm25
+chromadb

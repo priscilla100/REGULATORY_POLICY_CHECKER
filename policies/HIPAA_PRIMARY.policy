@@ -1,0 +1,270 @@
+regulation HIPAA_PRIMARY version "2024.0"
+description "Tier 1: Substantive Rules - Permissions and Prohibitions"
+effective_date "2013-09-23"
+
+type declaration starts
+type Entity
+type PHI
+type Auth
+type Purpose
+type declaration ends
+
+policy starts
+
+@["§164.502(a)(1)(i) - General rule - Permitted uses and disclosures to the individual"]
+forall ce, individual, phi.
+  (coveredEntity(ce) and protectedHealthInfo(phi))
+  implies
+  permittedUseOrDisclosure(ce, individual, phi, @ToIndividual)
+;
+
+@["§164.502(a)(1)(ii) - Permitted uses for treatment, payment, healthcare operations"]
+forall ce, recipient, phi, purpose.
+  (coveredEntity(ce) and protectedHealthInfo(phi) and
+   purposeIsTPO(purpose))
+  implies
+  permittedUseOrDisclosure(ce, recipient, phi, purpose)
+;
+
+@["§164.502(a)(1)(iii) - Incident to permitted use or disclosure"]
+forall ce, recipient, phi, purpose.
+  (coveredEntity(ce) and protectedHealthInfo(phi) and
+   incidentToPermittedUse(ce, recipient, phi, purpose))
+  implies
+  permittedUseOrDisclosure(ce, recipient, phi, purpose)
+;
+
+@["§164.502(a)(1)(iv) - Disclosures to persons subject to FDA jurisdiction"]
+forall ce, fda, phi, purpose.
+  (coveredEntity(ce) and protectedHealthInfo(phi) and
+   fdaJurisdictionEntity(fda) and
+   not(marketingPurpose(purpose)))
+  implies
+  permittedUseOrDisclosure(ce, fda, phi, purpose)
+;
+
+@["§164.506(a) - Standard: Permitted uses for treatment, payment, operations"]
+forall ce, recipient, phi, purpose.
+  (coveredEntity(ce) and protectedHealthInfo(phi) and
+   (purposeIsPurpose(purpose, @Treatment) or
+    purposeIsPurpose(purpose, @Payment) or
+    purposeIsPurpose(purpose, @HealthcareOperations)))
+  implies
+  permittedWithoutAuthorization(ce, recipient, phi, purpose)
+;
+
+@["§164.506(c)(1) - Disclosure for treatment"]
+forall ce, provider, phi.
+  (coveredEntity(ce) and healthCareProvider(provider) and
+   protectedHealthInfo(phi))
+  implies
+  permittedUseOrDisclosure(ce, provider, phi, @Treatment)
+;
+
+@["§164.506(c)(2) - Disclosure for payment"]
+forall ce, payer, phi.
+  (coveredEntity(ce) and paymentEntity(payer) and
+   protectedHealthInfo(phi))
+  implies
+  permittedUseOrDisclosure(ce, payer, phi, @Payment)
+;
+
+@["§164.508(a)(1) - Standard: Authorizations required for uses and disclosures"]
+forall ce, recipient, phi, purpose.
+  (coveredEntity(ce) and protectedHealthInfo(phi) and
+   disclose(ce, recipient, phi, purpose) and
+   not(purposeIsTPO(purpose)) and
+   not(requiredByLaw(purpose)))
+  implies
+  hasAuthorization(ce, recipient, phi)
+;
+
+@["§164.508(a)(2) - Authorization required for marketing"]
+forall ce, recipient, phi.
+  (coveredEntity(ce) and protectedHealthInfo(phi) and
+   disclose(ce, recipient, phi, @Marketing))
+  implies
+  hasAuthorization(ce, recipient, phi)
+;
+
+@["§164.508(a)(3) - Authorization required for sale of PHI"]
+forall ce, recipient, phi.
+  (coveredEntity(ce) and protectedHealthInfo(phi) and
+   saleOfPHI(ce, recipient, phi))
+  implies
+  hasAuthorization(ce, recipient, phi)
+;
+
+@["§164.510(a)(1) - Facility directories - with opportunity to object"]
+forall ce, individual, phi.
+  (coveredEntity(ce) and protectedHealthInfo(phi) and
+   (opportunityToObject(individual, @FacilityDirectory) or
+    individualAgreed(individual, @FacilityDirectory)))
+  implies
+  permittedUseOrDisclosure(ce, anyRecipient, phi, @FacilityDirectory)
+;
+
+@["§164.510(b)(1) - Disclosure to family members, relatives, or close personal friends"]
+forall ce, family, individual, phi.
+  (coveredEntity(ce) and protectedHealthInfo(phi) and
+   (familyMember(family, individual) or closePersonalFriend(family, individual)) and
+   (involvementInCare(family, individual) or individualAgreed(individual, family)))
+  implies
+  permittedUseOrDisclosure(ce, family, phi, @InformalCare)
+;
+
+@["§164.510(b)(3) - Disclosure when individual not present or incapacitated"]
+forall ce, family, individual, phi.
+  (coveredEntity(ce) and protectedHealthInfo(phi) and
+   (familyMember(family, individual) or closePersonalFriend(family, individual)) and
+   (individualIncapacitated(individual) or emergencyCircumstance(ce)) and
+   professionalJudgment(ce, family, individual))
+  implies
+  permittedUseOrDisclosure(ce, family, phi, @Emergency)
+;
+
+@["§164.512(a) - Uses and disclosures required by law"]
+forall ce, recipient, phi, purpose.
+  (coveredEntity(ce) and protectedHealthInfo(phi) and
+   requiredByLaw(purpose))
+  implies
+  permittedUseOrDisclosure(ce, recipient, phi, purpose)
+;
+
+@["§164.512(b)(1)(i) - Public health activities"]
+forall ce, pha, phi.
+  (coveredEntity(ce) and protectedHealthInfo(phi) and
+   publicHealthAuthority(pha))
+  implies
+  permittedUseOrDisclosure(ce, pha, phi, @PublicHealth)
+;
+
+@["§164.512(d) - Health oversight activities"]
+forall ce, hoa, phi.
+  (coveredEntity(ce) and protectedHealthInfo(phi) and
+   healthOversightAgency(hoa))
+  implies
+  permittedUseOrDisclosure(ce, hoa, phi, @HealthOversight)
+;
+
+@["§164.512(e)(1)(i) - Judicial and administrative proceedings"]
+forall ce, court, phi.
+  (coveredEntity(ce) and protectedHealthInfo(phi) and
+   courtOrder(court, phi))
+  implies
+  permittedUseOrDisclosure(ce, court, phi, @LegalProceeding)
+;
+
+@["§164.512(f)(1) - Law enforcement purposes - pursuant to process"]
+forall ce, leo, phi.
+  (coveredEntity(ce) and protectedHealthInfo(phi) and
+   lawEnforcementOfficial(leo) and
+   legalProcess(leo, phi))
+  implies
+  permittedUseOrDisclosure(ce, leo, phi, @LawEnforcement)
+;
+
+@["§164.512(j)(1)(i) - Research with IRB approval"]
+forall ce, researcher, phi.
+  (coveredEntity(ce) and protectedHealthInfo(phi) and
+   irbWaiverApproved(researcher, phi))
+  implies
+  permittedUseOrDisclosure(ce, researcher, phi, @Research)
+;
+
+@["§164.514(e)(1) - Standard: Limited data set"]
+forall ce, recipient, lds, purpose.
+  (coveredEntity(ce) and limitedDataSet(lds) and
+   (purposeIsPurpose(purpose, @Research) or
+    purposeIsPurpose(purpose, @PublicHealth) or
+    purposeIsPurpose(purpose, @HealthcareOperations)) and
+   dataUseAgreement(ce, recipient, lds))
+  implies
+  permittedUseOrDisclosure(ce, recipient, lds, purpose)
+;
+
+@["§164.522(a)(1)(i) - Right to request restrictions"]
+forall ce, individual, phi, purpose.
+  (coveredEntity(ce) and protectedHealthInfo(phi) and
+   individualRequestsRestriction(individual, phi, purpose))
+  implies
+  considerRestriction(ce, individual, phi, purpose)
+;
+
+@["§164.522(a)(1)(vi) - Must restrict if patient pays out of pocket"]
+forall ce, individual, healthplan, phi.
+  (coveredEntity(ce) and protectedHealthInfo(phi) and
+   healthPlan(healthplan) and
+   paidOutOfPocketInFull(individual, phi))
+  implies
+  not(permittedUseOrDisclosure(ce, healthplan, phi, @Payment))
+;
+
+@["§164.524(a)(1) - Right of access to PHI"]
+forall ce, individual, phi.
+  (coveredEntity(ce) and protectedHealthInfo(phi) and
+   inDesignatedRecordSet(phi) and
+   requestsAccess(individual, phi))
+  implies
+  permittedUseOrDisclosure(ce, individual, phi, @Access)
+;
+
+@["§164.524(a)(2)(i) - Denial of access - psychotherapy notes"]
+forall ce, individual, phi.
+  (coveredEntity(ce) and psychotherapyNotes(phi) and
+   requestsAccess(individual, phi))
+  implies
+  not(requiredToProvide(ce, individual, phi))
+;
+
+@["§164.526(a)(1) - Right to amend PHI"]
+forall ce, individual, phi.
+  (coveredEntity(ce) and protectedHealthInfo(phi) and
+   inDesignatedRecordSet(phi) and
+   requestsAmendment(individual, phi))
+  implies
+  considerAmendment(ce, individual, phi)
+;
+
+@["§164.502(a)(5)(i) - Prohibition on marketing without authorization"]
+forall ce, recipient, phi.
+  (coveredEntity(ce) and protectedHealthInfo(phi) and
+   marketingPurpose(@Marketing) and
+   not(hasAuthorization(ce, recipient, phi)))
+  implies
+  not(permittedUseOrDisclosure(ce, recipient, phi, @Marketing))
+;
+
+@["§164.502(a)(5)(ii)(A) - Prohibition on sale of PHI without authorization"]
+forall ce, recipient, phi.
+  (coveredEntity(ce) and protectedHealthInfo(phi) and
+   saleOfPHI(ce, recipient, phi) and
+   not(hasAuthorization(ce, recipient, phi)))
+  implies
+  not(permittedUseOrDisclosure(ce, recipient, phi, @Sale))
+;
+
+@["§164.514(a) - De-identified information not PHI"]
+forall info.
+  (deidentified(info))
+  implies
+  not(protectedHealthInfo(info))
+;
+
+@["§164.514(b)(1) - Safe harbor de-identification"]
+forall ce, info.
+  (coveredEntity(ce) and
+   removedEighteenIdentifiers(info) and
+   noActualKnowledge(ce, info))
+  implies
+  deidentified(info)
+;
+
+@["§164.514(c) - Re-identification prohibited"]
+forall ce, info.
+  (coveredEntity(ce) and deidentified(info))
+  implies
+  not(reidentify(ce, info))
+;
+
+policy ends

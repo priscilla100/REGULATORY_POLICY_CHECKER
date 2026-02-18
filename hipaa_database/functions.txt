@@ -1,0 +1,10 @@
+# HIPAA Function Definitions
+
+# Age function
+age(@Alice) = 34
+age(@PatientBob) = 45
+age(Patient1) = 52
+
+# PHI Sensitivity Score
+phiSensitivityScore(@phi_medrec_001) = 5
+phiSensitivityScore(XRay1) = 4

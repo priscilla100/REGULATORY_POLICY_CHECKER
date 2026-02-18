@@ -1,0 +1,37 @@
+PREDICATES
+True : Bool
+False : Bool
+coveredEntity : Entity -> Bool
+protectedHealthInfo : PHI -> Bool
+businessAssociate : Entity -> Bool
+publicHealthAuthority : Entity -> Bool
+familyMember : Entity Entity -> Bool
+disclose : Entity Entity PHI Purpose -> Bool
+use : Entity PHI Purpose -> Bool
+permittedUseOrDisclosure : Entity Entity PHI Purpose -> Bool
+hasAuthorization : Entity Entity PHI -> Bool
+requiredByLaw : Purpose -> Bool
+purposeIsTPO : Purpose -> Bool
+purposeIsPurpose : Purpose Purpose -> Bool
+involvementInCare : Entity Entity -> Bool
+minimumNecessaryApplied : Entity Entity PHI -> Bool
+hasPrivacyOfficer : Entity -> Bool
+hasSecurityOfficer : Entity -> Bool
+disclosureAccounted : Entity Entity PHI Purpose -> Bool
+inrole : Entity String -> Bool
+
+CONSTANTS
+@Treatment : Purpose
+@Payment : Purpose
+@HealthcareOperations : Purpose
+@Research : Purpose
+@PublicHealth : Purpose
+@Emergency : Purpose
+@InformalCare : Purpose
+@Disclosure : Purpose
+@AnyPHI : PHI
+@Recipient : Entity
+
+FUNCTIONS
+age : Entity -> Int
+phiSensitivityScore : PHI -> Int

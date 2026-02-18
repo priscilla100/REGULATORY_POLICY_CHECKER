@@ -1,0 +1,836 @@
+regulation HIPAA version "2.0"
+
+policy HIPAA-0
+  (* §160.101: Statutory basis and purpose. *)
+  forall ce, phi. (coveredEntity(ce) and protectedHealthInfo(phi)) implies true
+;
+
+policy HIPAA-1
+  (* §160.102: Applicability. *)
+  forall ce. coveredEntity(ce) implies compliantWithPolicy(ce)
+;
+
+policy HIPAA-2
+  (* §160.103: Definitions. *)
+  forall ce, recipient, phi, purpose.
+(coveredEntity(ce) and protectedHealthInfo(phi) and prohibitedPurpose(purpose))
+implies
+not(permittedUseOrDisclosure(ce, recipient, phi, purpose))
+;
+
+policy HIPAA-3
+  (* §160.104: Modifications. *)
+  forall ce, phi. (coveredEntity(ce) and protectedHealthInfo(phi)) implies true
+;
+
+policy HIPAA-4
+  (* §160.105: Compliance dates for implementation of new or modified standards and implementation specifications. *)
+  forall ce. coveredEntity(ce) implies compliantWithPolicy(ce)
+;
+
+policy HIPAA-5
+  (* §160.201: Statutory basis. *)
+  forall ce, phi. (coveredEntity(ce) and protectedHealthInfo(phi)) implies true
+;
+
+policy HIPAA-6
+  (* §160.202: Definitions. *)
+  forall ce, phi. (coveredEntity(ce) and protectedHealthInfo(phi)) implies true
+;
+
+policy HIPAA-7
+  (* §160.203: General rule and exceptions. *)
+  forall ce, phi. (coveredEntity(ce) and protectedHealthInfo(phi)) implies true
+;
+
+policy HIPAA-8
+  (* §160.204: Process for requesting exception determinations. *)
+  forall ce. coveredEntity(ce) implies compliantWithPolicy(ce)
+;
+
+policy HIPAA-9
+  (* §160.205: Duration of effectiveness of exception determinations. *)
+  forall ce, phi. (coveredEntity(ce) and protectedHealthInfo(phi)) implies true
+;
+
+policy HIPAA-10
+  (* §160.300: Applicability. *)
+  forall ce, phi. (coveredEntity(ce) and protectedHealthInfo(phi)) implies true
+;
+
+policy HIPAA-11
+  (* §160.304: Principles for achieving compliance. *)
+  forall ce, phi. (coveredEntity(ce) and protectedHealthInfo(phi)) implies true
+;
+
+policy HIPAA-12
+  (* §160.306: Complaints to the Secretary. *)
+  forall ce. coveredEntity(ce) implies compliantWithPolicy(ce)
+;
+
+policy HIPAA-13
+  (* §160.308: Compliance reviews. *)
+  forall ce, phi. (coveredEntity(ce) and protectedHealthInfo(phi)) implies true
+;
+
+policy HIPAA-14
+  (* §160.310: Responsibilities of covered entities and business associates. *)
+  forall ce. coveredEntity(ce) implies compliantWithPolicy(ce)
+;
+
+policy HIPAA-15
+  (* §160.312: Secretarial action regarding complaints and compliance reviews. *)
+  forall ce. coveredEntity(ce) implies compliantWithPolicy(ce)
+;
+
+policy HIPAA-16
+  (* §160.314: Investigational subpoenas and inquiries. *)
+  forall ce. coveredEntity(ce) implies compliantWithPolicy(ce)
+;
+
+policy HIPAA-17
+  (* §160.316: Refraining from intimidation or retaliation. *)
+  forall ce, recipient, phi, purpose.
+(coveredEntity(ce) and protectedHealthInfo(phi) and prohibitedPurpose(purpose))
+implies
+not(permittedUseOrDisclosure(ce, recipient, phi, purpose))
+;
+
+policy HIPAA-18
+  (* §160.400: Applicability. *)
+  forall ce, phi. (coveredEntity(ce) and protectedHealthInfo(phi)) implies true
+;
+
+policy HIPAA-19
+  (* §160.401: Definitions. *)
+  forall ce, phi. (coveredEntity(ce) and protectedHealthInfo(phi)) implies true
+;
+
+policy HIPAA-20
+  (* §160.402: Basis for a civil money penalty. *)
+  forall ce, phi. (coveredEntity(ce) and protectedHealthInfo(phi)) implies true
+;
+
+policy HIPAA-21
+  (* §160.404: Amount of a civil money penalty. *)
+  forall ce, recipient, phi, purpose.
+(coveredEntity(ce) and protectedHealthInfo(phi) and prohibitedPurpose(purpose))
+implies
+not(permittedUseOrDisclosure(ce, recipient, phi, purpose))
+;
+
+policy HIPAA-22
+  (* §160.406: Violations of an identical requirement or prohibition. *)
+  forall ce, phi. (coveredEntity(ce) and protectedHealthInfo(phi)) implies true
+;
+
+policy HIPAA-23
+  (* §160.408: Factors considered in determining the amount of a civil money penalty. *)
+  forall ce, phi. (coveredEntity(ce) and protectedHealthInfo(phi)) implies true
+;
+
+policy HIPAA-24
+  (* §160.410: Affirmative defenses. *)
+  forall ce, recipient, phi, purpose.
+(coveredEntity(ce) and protectedHealthInfo(phi) and prohibitedPurpose(purpose))
+implies
+not(permittedUseOrDisclosure(ce, recipient, phi, purpose))
+;
+
+policy HIPAA-25
+  (* §160.412: Waiver. *)
+  forall ce, phi. (coveredEntity(ce) and protectedHealthInfo(phi)) implies true
+;
+
+policy HIPAA-26
+  (* §160.414: Limitations. *)
+  forall ce, phi. (coveredEntity(ce) and protectedHealthInfo(phi)) implies true
+;
+
+policy HIPAA-27
+  (* §160.416: Authority to settle. *)
+  forall ce, phi. (coveredEntity(ce) and protectedHealthInfo(phi)) implies true
+;
+
+policy HIPAA-28
+  (* §160.418: Penalty not exclusive. *)
+  forall ce, phi. (coveredEntity(ce) and protectedHealthInfo(phi)) implies true
+;
+
+policy HIPAA-29
+  (* §160.420: Notice of proposed determination. *)
+  forall ce. coveredEntity(ce) implies compliantWithPolicy(ce)
+;
+
+policy HIPAA-30
+  (* §160.422: Failure to request a hearing. *)
+  forall ce, phi. (coveredEntity(ce) and protectedHealthInfo(phi)) implies true
+;
+
+policy HIPAA-31
+  (* §160.424: Collection of penalty. *)
+  forall ce, recipient, phi, purpose.
+(coveredEntity(ce) and protectedHealthInfo(phi) and prohibitedPurpose(purpose))
+implies
+not(permittedUseOrDisclosure(ce, recipient, phi, purpose))
+;
+
+policy HIPAA-32
+  (* §160.426: Notification of the public and other agencies. *)
+  forall ce, phi. (coveredEntity(ce) and protectedHealthInfo(phi)) implies true
+;
+
+policy HIPAA-33
+  (* §160.500: Applicability. *)
+  forall ce, phi. (coveredEntity(ce) and protectedHealthInfo(phi)) implies true
+;
+
+policy HIPAA-34
+  (* §160.502: Definitions. *)
+  forall ce, phi. (coveredEntity(ce) and protectedHealthInfo(phi)) implies true
+;
+
+policy HIPAA-35
+  (* §160.504: Hearing before an ALJ. *)
+  forall ce. coveredEntity(ce) implies compliantWithPolicy(ce)
+;
+
+policy HIPAA-36
+  (* §160.506: Rights of the parties. *)
+  forall ce. coveredEntity(ce) implies compliantWithPolicy(ce)
+;
+
+policy HIPAA-37
+  (* §160.508: Authority of the ALJ. *)
+  forall ce, recipient, phi, purpose.
+(coveredEntity(ce) and protectedHealthInfo(phi) and prohibitedPurpose(purpose))
+implies
+not(permittedUseOrDisclosure(ce, recipient, phi, purpose))
+;
+
+policy HIPAA-38
+  (* §160.510: Ex parte contacts. *)
+  forall ce, phi. (coveredEntity(ce) and protectedHealthInfo(phi)) implies true
+;
+
+policy HIPAA-39
+  (* §160.512: Prehearing conferences. *)
+  forall ce, recipient, phi.
+(coveredEntity(ce) and protectedHealthInfo(phi))
+implies
+(permittedUseOrDisclosure(ce, recipient, phi, purpose) or hasAuthorization(ce, recipient, phi))
+;
+
+policy HIPAA-40
+  (* §160.514: Authority to settle. *)
+  forall ce, phi. (coveredEntity(ce) and protectedHealthInfo(phi)) implies true
+;
+
+policy HIPAA-41
+  (* §160.516: Discovery. *)
+  forall ce, recipient, phi, purpose.
+(coveredEntity(ce) and protectedHealthInfo(phi) and prohibitedPurpose(purpose))
+implies
+not(permittedUseOrDisclosure(ce, recipient, phi, purpose))
+;
+
+policy HIPAA-42
+  (* §160.518: Exchange of witness lists, witness statements, and exhibits. *)
+  forall ce. coveredEntity(ce) implies compliantWithPolicy(ce)
+;
+
+policy HIPAA-43
+  (* §160.520: Subpoenas for attendance at hearing. *)
+  forall ce. coveredEntity(ce) implies compliantWithPolicy(ce)
+;
+
+policy HIPAA-44
+  (* §160.522: Fees. *)
+  forall ce. coveredEntity(ce) implies compliantWithPolicy(ce)
+;
+
+policy HIPAA-45
+  (* §160.524: Form, filing, and service of papers. *)
+  forall ce. coveredEntity(ce) implies compliantWithPolicy(ce)
+;
+
+policy HIPAA-46
+  (* §160.526: Computation of time. *)
+  forall ce. coveredEntity(ce) implies compliantWithPolicy(ce)
+;
+
+policy HIPAA-47
+  (* §160.528: Motions. *)
+  forall ce, recipient, phi, purpose.
+(coveredEntity(ce) and protectedHealthInfo(phi) and prohibitedPurpose(purpose))
+implies
+not(permittedUseOrDisclosure(ce, recipient, phi, purpose))
+;
+
+policy HIPAA-48
+  (* §160.530: Sanctions. *)
+  forall ce. coveredEntity(ce) implies compliantWithPolicy(ce)
+;
+
+policy HIPAA-49
+  (* §160.532: Collateral estoppel. *)
+  forall ce, phi. (coveredEntity(ce) and protectedHealthInfo(phi)) implies true
+;
+
+policy HIPAA-50
+  (* §160.534: The hearing. *)
+  forall ce, recipient, phi, purpose.
+(coveredEntity(ce) and protectedHealthInfo(phi) and prohibitedPurpose(purpose))
+implies
+not(permittedUseOrDisclosure(ce, recipient, phi, purpose))
+;
+
+policy HIPAA-51
+  (* §160.536: Statistical sampling. *)
+  forall ce, phi.
+(coveredEntity(ce) and protectedHealthInfo(phi) and condition(ce, phi))
+implies
+action(ce, phi)
+;
+
+policy HIPAA-52
+  (* §160.538: Witnesses. *)
+  forall ce, recipient, phi, purpose.
+(coveredEntity(ce) and protectedHealthInfo(phi) and prohibitedPurpose(purpose))
+implies
+not(permittedUseOrDisclosure(ce, recipient, phi, purpose))
+;
+
+policy HIPAA-53
+  (* §160.540: Evidence. *)
+  forall ce. coveredEntity(ce) implies compliantWithPolicy(ce)
+;
+
+policy HIPAA-54
+  (* §160.542: The record. *)
+  forall ce. coveredEntity(ce) implies compliantWithPolicy(ce)
+;
+
+policy HIPAA-55
+  (* §160.544: Post hearing briefs. *)
+  forall ce, recipient, phi, purpose.
+(coveredEntity(ce) and protectedHealthInfo(phi) and prohibitedPurpose(purpose))
+implies
+not(permittedUseOrDisclosure(ce, recipient, phi, purpose))
+;
+
+policy HIPAA-56
+  (* §160.546: ALJ's decision. *)
+  forall ce, recipient, phi, purpose.
+(coveredEntity(ce) and protectedHealthInfo(phi) and prohibitedPurpose(purpose))
+implies
+not(permittedUseOrDisclosure(ce, recipient, phi, purpose))
+;
+
+policy HIPAA-57
+  (* §160.548: Appeal of the ALJ's decision. *)
+  forall ce, recipient, phi, purpose.
+(coveredEntity(ce) and protectedHealthInfo(phi) and prohibitedPurpose(purpose))
+implies
+not(permittedUseOrDisclosure(ce, recipient, phi, purpose))
+;
+
+policy HIPAA-58
+  (* §160.550: Stay of the Secretary's decision. *)
+  forall ce, recipient, phi, purpose.
+(coveredEntity(ce) and protectedHealthInfo(phi) and prohibitedPurpose(purpose))
+implies
+not(permittedUseOrDisclosure(ce, recipient, phi, purpose))
+;
+
+policy HIPAA-59
+  (* §160.552: Harmless error. *)
+  forall ce. coveredEntity(ce) implies compliantWithPolicy(ce)
+;
+
+policy HIPAA-60
+  (* §162.100: Applicability. *)
+  forall ce. coveredEntity(ce) implies compliantWithPolicy(ce)
+;
+
+policy HIPAA-61
+  (* §162.103: Definitions. *)
+  forall ce, recipient, phi, purpose.
+(coveredEntity(ce) and protectedHealthInfo(phi) and not(purposeIsTPO(purpose)))
+implies
+hasAuthorization(ce, recipient, phi)
+;
+
+policy HIPAA-62
+  (* §162.404: Compliance dates of the implementation of the standard unique health identifier for health care providers. *)
+  forall ce. coveredEntity(ce) implies compliantWithPolicy(ce)
+;
+
+policy HIPAA-63
+  (* §162.406: Standard unique health identifier for health care providers. *)
+  forall ce. coveredEntity(ce) implies compliantWithPolicy(ce)
+;
+
+policy HIPAA-64
+  (* §162.408: National Provider System. *)
+  forall ce. coveredEntity(ce) implies compliantWithPolicy(ce)
+;
+
+policy HIPAA-65
+  (* §162.410: Implementation specifications: Health care providers. *)
+  forall ce. coveredEntity(ce) implies compliantWithPolicy(ce)
+;
+
+policy HIPAA-66
+  (* §162.412: Implementation specifications: Health plans. *)
+  forall ce, recipient, phi, purpose.
+(coveredEntity(ce) and protectedHealthInfo(phi) and prohibitedPurpose(purpose))
+implies
+not(permittedUseOrDisclosure(ce, recipient, phi, purpose))
+;
+
+policy HIPAA-67
+  (* §162.414: Implementation specifications: Health care clearinghouses. *)
+  forall ce. coveredEntity(ce) implies compliantWithPolicy(ce)
+;
+
+policy HIPAA-68
+  (* §162.600: Compliance dates of the implementation of the standard unique employer identifier. *)
+  forall ce. coveredEntity(ce) implies compliantWithPolicy(ce)
+;
+
+policy HIPAA-69
+  (* §162.605: Standard unique employer identifier. *)
+  forall ce, phi. (coveredEntity(ce) and protectedHealthInfo(phi)) implies true
+;
+
+policy HIPAA-70
+  (* §162.610: Implementation specifications for covered entities. *)
+  forall ce. coveredEntity(ce) implies compliantWithPolicy(ce)
+;
+
+policy HIPAA-71
+  (* §162.910: Maintenance of standards and adoption of modifications and new standards. *)
+  forall ce, phi. (coveredEntity(ce) and protectedHealthInfo(phi)) implies true
+;
+
+policy HIPAA-72
+  (* §162.915: Trading partner agreements. *)
+  forall ce, recipient, phi, purpose.
+(coveredEntity(ce) and protectedHealthInfo(phi) and prohibitedPurpose(purpose))
+implies
+not(permittedUseOrDisclosure(ce, recipient, phi, purpose))
+;
+
+policy HIPAA-73
+  (* §162.920: Availability of implementation specifications and operating rules. *)
+  forall ce. coveredEntity(ce) implies compliantWithPolicy(ce)
+;
+
+policy HIPAA-74
+  (* §162.923: Requirements for covered entities. *)
+  forall ce, recipient, phi.
+(coveredEntity(ce) and protectedHealthInfo(phi))
+implies
+(permittedUseOrDisclosure(ce, recipient, phi, purpose) or hasAuthorization(ce, recipient, phi))
+;
+
+policy HIPAA-75
+  (* §162.925: Additional requirements for health plans. *)
+  forall ce, recipient, phi, purpose.
+(coveredEntity(ce) and protectedHealthInfo(phi) and prohibitedPurpose(purpose))
+implies
+not(permittedUseOrDisclosure(ce, recipient, phi, purpose))
+;
+
+policy HIPAA-76
+  (* §162.930: Additional rules for health care clearinghouses. *)
+  forall ce, phi. (coveredEntity(ce) and protectedHealthInfo(phi)) implies true
+;
+
+policy HIPAA-77
+  (* §162.940: Exceptions from standards to permit testing of proposed modifications. *)
+  forall ce. coveredEntity(ce) implies compliantWithPolicy(ce)
+;
+
+policy HIPAA-78
+  (* §162.1000: General requirements. *)
+  forall ce. coveredEntity(ce) implies compliantWithPolicy(ce)
+;
+
+policy HIPAA-79
+  (* §162.1002: Medical data code sets. *)
+  forall ce, phi. (coveredEntity(ce) and protectedHealthInfo(phi)) implies true
+;
+
+policy HIPAA-80
+  (* §162.1011: Valid code sets. *)
+  forall ce, phi. (coveredEntity(ce) and protectedHealthInfo(phi)) implies true
+;
+
+policy HIPAA-81
+  (* §162.1101: Health care claims or equivalent encounter information transaction. *)
+  forall ce, phi. (coveredEntity(ce) and protectedHealthInfo(phi)) implies true
+;
+
+policy HIPAA-82
+  (* §162.1102: Standards for health care claims or equivalent encounter information transaction. *)
+  forall ce. coveredEntity(ce) implies compliantWithPolicy(ce)
+;
+
+policy HIPAA-83
+  (* §162.1201: Eligibility for a health plan transaction. *)
+  forall ce, phi. (coveredEntity(ce) and protectedHealthInfo(phi)) implies true
+;
+
+policy HIPAA-84
+  (* §162.1202: Standards for eligibility for a health plan transaction. *)
+  forall ce, phi. (coveredEntity(ce) and protectedHealthInfo(phi)) implies true
+;
+
+policy HIPAA-85
+  (* §162.1203: Operating rules for eligibility for a health plan transaction. *)
+  forall ce, phi. (coveredEntity(ce) and protectedHealthInfo(phi)) implies true
+;
+
+policy HIPAA-86
+  (* §162.1301: Referral certification and authorization transaction. *)
+  forall ce, phi. (coveredEntity(ce) and protectedHealthInfo(phi)) implies true
+;
+
+policy HIPAA-87
+  (* §162.1302: Standards for referral certification and authorization transaction. *)
+  forall ce, recipient, phi, purpose.
+(coveredEntity(ce) and protectedHealthInfo(phi) and not(purposeIsTPO(purpose)))
+implies
+hasAuthorization(ce, recipient, phi)
+;
+
+policy HIPAA-88
+  (* §162.1401: Health care claim status transaction. *)
+  forall ce, phi. (coveredEntity(ce) and protectedHealthInfo(phi)) implies true
+;
+
+policy HIPAA-89
+  (* §162.1402: Standards for health care claim status transaction. *)
+  forall ce, phi. (coveredEntity(ce) and protectedHealthInfo(phi)) implies true
+;
+
+policy HIPAA-90
+  (* §162.1403: Operating rules for health care claim status transaction. *)
+  forall ce, phi. (coveredEntity(ce) and protectedHealthInfo(phi)) implies true
+;
+
+policy HIPAA-91
+  (* §162.1501: Enrollment and disenrollment in a health plan transaction. *)
+  forall ce, phi. (coveredEntity(ce) and protectedHealthInfo(phi)) implies true
+;
+
+policy HIPAA-92
+  (* §162.1502: Standards for enrollment and disenrollment in a health plan transaction. *)
+  forall ce, phi. (coveredEntity(ce) and protectedHealthInfo(phi)) implies true
+;
+
+policy HIPAA-93
+  (* §162.1601: Health care electronic funds transfers (EFT) and remittance advice transaction. *)
+  forall ce, phi. (coveredEntity(ce) and protectedHealthInfo(phi)) implies true
+;
+
+policy HIPAA-94
+  (* §162.1602: Standards for health care electronic funds transfers (EFT) and remittance advice transaction. *)
+  forall ce, phi. (coveredEntity(ce) and protectedHealthInfo(phi)) implies true
+;
+
+policy HIPAA-95
+  (* §162.1603: Operating rules for health care electronic funds transfers (EFT) and remittance advice transaction. *)
+  forall ce, phi. (coveredEntity(ce) and protectedHealthInfo(phi)) implies true
+;
+
+policy HIPAA-96
+  (* §162.1701: Health plan premium payments transaction. *)
+  forall ce, phi. (coveredEntity(ce) and protectedHealthInfo(phi)) implies true
+;
+
+policy HIPAA-97
+  (* §162.1702: Standards for health plan premium payments transaction. *)
+  forall ce, phi. (coveredEntity(ce) and protectedHealthInfo(phi)) implies true
+;
+
+policy HIPAA-98
+  (* §162.1801: Coordination of benefits transaction. *)
+  forall ce, phi. (coveredEntity(ce) and protectedHealthInfo(phi)) implies true
+;
+
+policy HIPAA-99
+  (* §162.1802: Standards for coordination of benefits information transaction. *)
+  forall ce. coveredEntity(ce) implies compliantWithPolicy(ce)
+;
+
+policy HIPAA-100
+  (* §162.1901: Medicaid pharmacy subrogation transaction. *)
+  forall ce, phi. (coveredEntity(ce) and protectedHealthInfo(phi)) implies true
+;
+
+policy HIPAA-101
+  (* §162.1902: Standard for Medicaid pharmacy subrogation transaction. *)
+  forall ce, phi. (coveredEntity(ce) and protectedHealthInfo(phi)) implies true
+;
+
+policy HIPAA-102
+  (* §164.102: Statutory basis. *)
+  forall ce, phi. (coveredEntity(ce) and protectedHealthInfo(phi)) implies true
+;
+
+policy HIPAA-103
+  (* §164.103: Definitions. *)
+  forall ce, phi. (coveredEntity(ce) and protectedHealthInfo(phi)) implies true
+;
+
+policy HIPAA-104
+  (* §164.104: Applicability. *)
+  forall ce, phi. (coveredEntity(ce) and protectedHealthInfo(phi)) implies true
+;
+
+policy HIPAA-105
+  (* §164.105: Organizational requirements. *)
+  forall ce, recipient, phi, purpose.
+(coveredEntity(ce) and protectedHealthInfo(phi) and prohibitedPurpose(purpose))
+implies
+not(permittedUseOrDisclosure(ce, recipient, phi, purpose))
+;
+
+policy HIPAA-106
+  (* §164.106: Relationship to other parts. *)
+  forall ce. coveredEntity(ce) implies compliantWithPolicy(ce)
+;
+
+policy HIPAA-107
+  (* §164.302: Applicability. *)
+  forall ce. coveredEntity(ce) implies compliantWithPolicy(ce)
+;
+
+policy HIPAA-108
+  (* §164.304: Definitions. *)
+  forall ce, phi.
+(coveredEntity(ce) and protectedHealthInfo(phi) and condition(ce, phi))
+implies
+action(ce, phi)
+;
+
+policy HIPAA-109
+  (* §164.306: Security standards: General rules. *)
+  forall ce, recipient, phi.
+(coveredEntity(ce) and protectedHealthInfo(phi))
+implies
+(permittedUseOrDisclosure(ce, recipient, phi, purpose) or hasAuthorization(ce, recipient, phi))
+;
+
+policy HIPAA-110
+  (* §164.308: Administrative safeguards. *)
+  forall ce. coveredEntity(ce) implies hasSecurityOfficer(ce)
+;
+
+policy HIPAA-111
+  (* §164.310: Physical safeguards. *)
+  forall ce. coveredEntity(ce) implies compliantWithPolicy(ce)
+;
+
+policy HIPAA-112
+  (* §164.312: Technical safeguards. *)
+  forall ce. coveredEntity(ce) implies compliantWithPolicy(ce)
+;
+
+policy HIPAA-113
+  (* §164.314: Organizational requirements. *)
+  forall ce. coveredEntity(ce) implies compliantWithPolicy(ce)
+;
+
+policy HIPAA-114
+  (* §164.316: Policies and procedures and documentation requirements. *)
+  forall ce. coveredEntity(ce) implies compliantWithPolicy(ce)
+;
+
+policy HIPAA-115
+  (* §164.318: Compliance dates for the initial implementation of the security standards. *)
+  forall ce. coveredEntity(ce) implies compliantWithPolicy(ce)
+;
+
+policy HIPAA-116
+  (* §164.400: Applicability. *)
+  forall ce. coveredEntity(ce) implies compliantWithPolicy(ce)
+;
+
+policy HIPAA-117
+  (* §164.402: Definitions. *)
+  forall ce, phi. (coveredEntity(ce) and protectedHealthInfo(phi)) implies true
+;
+
+policy HIPAA-118
+  (* §164.404: Notification to individuals. *)
+  forall ce. coveredEntity(ce) implies compliantWithPolicy(ce)
+;
+
+policy HIPAA-119
+  (* §164.406: Notification to the media. *)
+  forall ce. coveredEntity(ce) implies compliantWithPolicy(ce)
+;
+
+policy HIPAA-120
+  (* §164.408: Notification to the Secretary. *)
+  forall ce. coveredEntity(ce) implies compliantWithPolicy(ce)
+;
+
+policy HIPAA-121
+  (* §164.410: Notification by a business associate. *)
+  forall ce. coveredEntity(ce) implies compliantWithPolicy(ce)
+;
+
+policy HIPAA-122
+  (* §164.412: Law enforcement delay. *)
+  forall ce. coveredEntity(ce) implies compliantWithPolicy(ce)
+;
+
+policy HIPAA-123
+  (* §164.414: Administrative requirements and burden of proof. *)
+  forall ce. coveredEntity(ce) implies compliantWithPolicy(ce)
+;
+
+policy HIPAA-124
+  (* §164.500: Applicability. *)
+  forall ce, recipient, phi, purpose.
+(coveredEntity(ce) and protectedHealthInfo(phi) and not(purposeIsTPO(purpose)))
+implies
+hasAuthorization(ce, recipient, phi)
+;
+
+policy HIPAA-125
+  (* §164.501: Definitions. *)
+  forall ce, phi. (coveredEntity(ce) and protectedHealthInfo(phi)) implies true
+;
+
+policy HIPAA-126
+  (* §164.502: Uses and disclosures of protected health information: General rules. *)
+  forall ce, recipient, phi, purpose.
+(coveredEntity(ce) and protectedHealthInfo(phi) and purposeIsTPO(purpose))
+implies
+permittedUseOrDisclosure(ce, recipient, phi, purpose)
+;
+
+policy HIPAA-127
+  (* §164.504: Uses and disclosures: Organizational requirements. *)
+  forall ce, recipient, phi, purpose.
+(coveredEntity(ce) and protectedHealthInfo(phi) and purposeIsTPO(purpose))
+implies
+permittedUseOrDisclosure(ce, recipient, phi, purpose)
+;
+
+policy HIPAA-128
+  (* §164.506: Uses and disclosures to carry out treatment, payment, or health care operations. *)
+  forall ce, recipient, phi, purpose.
+(coveredEntity(ce) and protectedHealthInfo(phi) and purposeIsTPO(purpose))
+implies
+permittedUseOrDisclosure(ce, recipient, phi, purpose)
+;
+
+policy HIPAA-129
+  (* §164.508: Uses and disclosures for which an authorization is required. *)
+  forall ce, recipient, phi, purpose.
+(coveredEntity(ce) and protectedHealthInfo(phi) and prohibitedPurpose(purpose))
+implies
+not(permittedUseOrDisclosure(ce, recipient, phi, purpose))
+;
+
+policy HIPAA-130
+  (* §164.509: Uses and disclosures for which an attestation is required. *)
+  forall ce, recipient, phi, purpose.
+(coveredEntity(ce) and protectedHealthInfo(phi) and prohibitedPurpose(purpose))
+implies
+not(permittedUseOrDisclosure(ce, recipient, phi, purpose))
+;
+
+policy HIPAA-131
+  (* §164.510: Uses and disclosures requiring an opportunity for the individual to agree or to object. *)
+  forall ce, recipient, phi, purpose.
+(coveredEntity(ce) and protectedHealthInfo(phi) and purposeIsTPO(purpose))
+implies
+permittedUseOrDisclosure(ce, recipient, phi, purpose)
+;
+
+policy HIPAA-132
+  (* §164.512: Uses and disclosures for which an authorization or opportunity to agree or object is not required. *)
+  forall ce, recipient, phi, purpose.
+(coveredEntity(ce) and protectedHealthInfo(phi) and purposeIsTPO(purpose))
+implies
+permittedUseOrDisclosure(ce, recipient, phi, purpose)
+;
+
+policy HIPAA-133
+  (* §164.514: Other requirements relating to uses and disclosures of protected health information. *)
+  forall ce, recipient, phi, purpose.
+(coveredEntity(ce) and protectedHealthInfo(phi) and purposeIsTPO(purpose))
+implies
+permittedUseOrDisclosure(ce, recipient, phi, purpose)
+;
+
+policy HIPAA-134
+  (* §164.520: Notice of privacy practices for protected health information. *)
+  forall ce, recipient, phi, purpose.
+(coveredEntity(ce) and protectedHealthInfo(phi) and purposeIsTPO(purpose))
+implies
+permittedUseOrDisclosure(ce, recipient, phi, purpose)
+;
+
+policy HIPAA-135
+  (* §164.522: Rights to request privacy protection for protected health information. *)
+  forall ce, recipient, phi, purpose.
+(coveredEntity(ce) and protectedHealthInfo(phi) and purposeIsTPO(purpose))
+implies
+permittedUseOrDisclosure(ce, recipient, phi, purpose)
+;
+
+policy HIPAA-136
+  (* §164.524: Access of individuals to protected health information. *)
+  forall ce. coveredEntity(ce) implies compliantWithPolicy(ce)
+;
+
+policy HIPAA-137
+  (* §164.526: Amendment of protected health information. *)
+  forall ce. coveredEntity(ce) implies compliantWithPolicy(ce)
+;
+
+policy HIPAA-138
+  (* §164.528: Accounting of disclosures of protected health information. *)
+  forall ce, recipient, phi, purpose.
+(coveredEntity(ce) and protectedHealthInfo(phi) and prohibitedPurpose(purpose))
+implies
+not(permittedUseOrDisclosure(ce, recipient, phi, purpose))
+;
+
+policy HIPAA-139
+  (* §164.530: Administrative requirements. *)
+  forall ce, recipient, phi, purpose.
+(coveredEntity(ce) and protectedHealthInfo(phi) and prohibitedPurpose(purpose))
+implies
+not(permittedUseOrDisclosure(ce, recipient, phi, purpose))
+;
+
+policy HIPAA-140
+  (* §164.532: Transition provisions. *)
+  forall ce, recipient, phi.
+(coveredEntity(ce) and protectedHealthInfo(phi))
+implies
+(permittedUseOrDisclosure(ce, recipient, phi, purpose) or hasAuthorization(ce, recipient, phi))
+;
+
+policy HIPAA-141
+  (* §164.534: Compliance dates for initial implementation of the privacy standards. *)
+  forall ce. coveredEntity(ce) implies compliantWithPolicy(ce)
+;
+
+policy HIPAA-142
+  (* §164.535: Severability. *)
+  forall ce, recipient, phi, purpose.
+(coveredEntity(ce) and protectedHealthInfo(phi) and prohibitedPurpose(purpose))
+implies
+not(permittedUseOrDisclosure(ce, recipient, phi, purpose))
+;

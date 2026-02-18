@@ -1,0 +1,175 @@
+regulation HIPAA_PROCEDURAL version "2024.0"
+description "Tier 2: Procedural Rules - Compliance Requirements"
+effective_date "2013-09-23"
+
+type declaration starts
+type Entity
+type PHI
+type Auth
+type Purpose
+type declaration ends
+
+policy starts
+
+@["§164.502(b)(1) - Minimum necessary standard"]
+forall ce, recipient, phi, purpose.
+  (coveredEntity(ce) and protectedHealthInfo(phi) and
+   disclose(ce, recipient, phi, purpose))
+  implies
+  minimumNecessaryApplied(ce, recipient, phi)
+;
+
+@["§164.502(b)(2)(i) - Minimum necessary does not apply to treatment"]
+forall ce, provider, phi.
+  (coveredEntity(ce) and healthCareProvider(provider) and
+   protectedHealthInfo(phi) and
+   disclose(ce, provider, phi, @Treatment))
+  implies
+  not(minimumNecessaryRequired(ce, provider, phi))
+;
+
+@["§164.520(a)(1)(i) - Standard: Notice of privacy practices"]
+forall ce.
+  coveredEntity(ce)
+  implies
+  hasPrivacyNotice(ce)
+;
+
+@["§164.520(c)(1) - Must provide notice to individual"]
+forall ce, individual.
+  (coveredEntity(ce) and requestsNotice(individual))
+  implies
+  mustProvideNotice(ce, individual)
+;
+
+@["§164.528(a)(1) - Right to accounting of disclosures"]
+forall ce, individual, phi.
+  (coveredEntity(ce) and protectedHealthInfo(phi) and
+   requestsAccounting(individual))
+  implies
+  mustProvideAccounting(ce, individual)
+;
+
+@["§164.528(a)(1)(i) - Must account for non-TPO disclosures"]
+forall ce, recipient, phi, purpose.
+  (coveredEntity(ce) and protectedHealthInfo(phi) and
+   disclose(ce, recipient, phi, purpose) and
+   not(purposeIsTPO(purpose)))
+  implies
+  mustAccount(ce, recipient, phi, purpose)
+;
+
+@["§164.528(a)(1)(ii) - TPO disclosures not required in accounting"]
+forall ce, recipient, phi, purpose.
+  (coveredEntity(ce) and protectedHealthInfo(phi) and
+   disclose(ce, recipient, phi, purpose) and
+   purposeIsTPO(purpose))
+  implies
+  not(accountingRequired(ce, recipient, phi, purpose))
+;
+
+@["§164.530(a)(1) - Must designate privacy official"]
+forall ce.
+  coveredEntity(ce)
+  implies
+  hasPrivacyOfficial(ce)
+;
+
+@["§164.530(b)(1) - Must train workforce"]
+forall ce, workforce.
+  (coveredEntity(ce) and workforceMember(workforce, ce))
+  implies
+  mustTrain(ce, workforce)
+;
+
+@["§164.530(e)(1) - Must have sanctions policy"]
+forall ce, workforce.
+  (coveredEntity(ce) and workforceMember(workforce, ce) and
+   violatesPolicy(workforce))
+  implies
+  mustSanction(ce, workforce)
+;
+
+@["§164.530(f) - Must have mitigation procedures"]
+forall ce, phi.
+  (coveredEntity(ce) and protectedHealthInfo(phi) and
+   knownViolation(ce, phi))
+  implies
+  mustMitigate(ce, phi)
+;
+
+@["§164.530(i)(1) - Must maintain documentation"]
+forall ce, policy.
+  (coveredEntity(ce) and privacyPolicy(policy, ce))
+  implies
+  mustDocument(ce, policy)
+;
+
+@["§164.502(e)(1)(i) - Business associate agreement required"]
+forall ce, ba, phi.
+  (coveredEntity(ce) and businessAssociate(ba) and
+   protectedHealthInfo(phi) and
+   disclose(ce, ba, phi, @BusinessAssociateService))
+  implies
+  hasBusinessAssociateAgreement(ce, ba)
+;
+
+@["§164.504(e)(2)(i) - BA agreement must establish permitted uses"]
+forall ce, ba, phi, purpose.
+  (coveredEntity(ce) and businessAssociate(ba) and
+   protectedHealthInfo(phi) and
+   disclose(ce, ba, phi, purpose) and
+   hasBusinessAssociateAgreement(ce, ba))
+  implies
+  permittedInBAA(ba, phi, purpose)
+;
+
+@["§164.514(h)(1) - Must verify identity before disclosure"]
+forall ce, recipient, phi.
+  (coveredEntity(ce) and protectedHealthInfo(phi) and
+   requests(recipient, phi))
+  implies
+  mustVerifyIdentity(ce, recipient)
+;
+
+@["§164.514(h)(2) - Must verify authority before disclosure"]
+forall ce, recipient, phi.
+  (coveredEntity(ce) and protectedHealthInfo(phi) and
+   requests(recipient, phi))
+  implies
+  mustVerifyAuthority(ce, recipient, phi)
+;
+
+@["§164.530(c)(1) - Must have safeguards"]
+forall ce, phi.
+  (coveredEntity(ce) and protectedHealthInfo(phi))
+  implies
+  hasSafeguards(ce, phi)
+;
+
+@["§164.530(c)(2) - Safeguards against impermissible uses"]
+forall ce, phi.
+  (coveredEntity(ce) and protectedHealthInfo(phi))
+  implies
+  safeguardsAgainstViolation(ce, phi)
+;
+
+@["§164.408(a) - Breach notification to individual"]
+forall ce, individual, phi.
+  (coveredEntity(ce) and protectedHealthInfo(phi) and
+   breachOccurred(ce, individual, phi))
+  implies
+  mustNotifyIndividual(ce, individual, phi)
+;
+
+@["§164.408(b) - Breach notification timing"]
+forall ce, individual, phi, days.
+  (coveredEntity(ce) and protectedHealthInfo(phi) and
+   breachOccurred(ce, individual, phi) and
+   daysSinceDiscovery(ce, phi, days) and
+   greaterThan(days, 60))
+  implies
+  violatesNotificationTiming(ce)
+;
+
+policy ends

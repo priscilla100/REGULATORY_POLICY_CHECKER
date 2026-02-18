@@ -1,0 +1,1654 @@
+[
+  {
+    "section": "164.103(2)",
+    "title": "Definitions.",
+    "text": "(2) Whose business activities include both covered and non-covered functions; and",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.103"
+  },
+  {
+    "section": "164.103(3)",
+    "title": "Definitions.",
+    "text": "(3) That designates health care components in accordance with paragraph \u00a7 164.105(a)(2)(iii)(D). Law enforcement official means an officer or employee of any agency or authority of the United States, a State, a territory, a political subdivision of a State or territory, or an Indian tribe, who is empowered by law to:",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.103"
+  },
+  {
+    "section": "164.103(1)",
+    "title": "Definitions.",
+    "text": "(1) Investigate or conduct an official inquiry into a potential violation of law; or",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.103"
+  },
+  {
+    "section": "164.103(2)",
+    "title": "Definitions.",
+    "text": "(2) Prosecute or otherwise conduct a criminal, civil, or administrative proceeding arising from an alleged violation of law. Plan sponsor is defined as defined at section 3(16)(B) of ERISA, 29 U.S.C. 1002(16)(B). Required by law means a mandate contained in law that compels an entity to make a use or disclosure of protected health information and that is enforceable in a court of law. Required by law includes, but is not limited to, court orders and court-ordered warrants; subpoenas or summons issued by a court, grand jury, a governmental or tribal inspector general, or an administrative body authorized to require the production of information; a civil or an authorized investigative demand; Medicare conditions of participation with respect to health care providers participating in the program; and statutes or regulations that require the production of information, including statutes or regulations that require such information if payment is sought under a government program providing public benefits.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.103"
+  },
+  {
+    "section": "164.104(a)",
+    "title": "Applicability.",
+    "text": "(a) Except as otherwise provided, the standards, requirements, and implementation specifications adopted under this part apply to the following entities:",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.104"
+  },
+  {
+    "section": "164.104(3)",
+    "title": "Applicability.",
+    "text": "(3) A health care provider who transmits any health information in electronic form in connection with a transaction covered by this subchapter.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.104"
+  },
+  {
+    "section": "164.104(b)",
+    "title": "Applicability.",
+    "text": "(b) Where provided, the standards, requirements, and implementation specifications adopted under this part apply to a business associate.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.104"
+  },
+  {
+    "section": "164.105(i)",
+    "title": "Organizational requirements.",
+    "text": "(i) Application of other provisions. In applying a provision of this part, other than the requirements of this section, \u00a7\u00a7 164.314, and 164.504, to a hybrid entity: (A) A reference in such provision to a \u201ccovered entity\u201d refers to a health care component of the covered entity; (B) A reference in such provision to a \u201chealth plan,\u201d \u201ccovered health care provider,\u201d or \u201chealth care clearinghouse,\u201d refers to a health care component of the covered entity if such health care component performs the functions of a health plan, health care provider, or health care clearinghouse, as applicable; (C) A reference in such provision to \u201cprotected health information\u201d refers to protected health information that is created or received by or on behalf of the health care component of the covered entity; and (D) A reference in such provision to \u201celectronic protected health information\u201d refers to electronic protected health information that is created, received, maintained, or transmitted by or on behalf of the health care component of the covered entity.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.105"
+  },
+  {
+    "section": "164.105(ii)",
+    "title": "Organizational requirements.",
+    "text": "(ii) Safeguard requirements. The covered entity that is a hybrid entity must ensure that a health care component of the entity complies with the applicable requirements of this part. In particular, and without limiting this requirement, such covered entity must ensure that: (A) Its health care component does not disclose protected health information to another component of the covered entity in circumstances in which subpart E of this part would prohibit such disclosure if the health care component and the other component were separate and distinct legal entities; (B) Its health care component protects electronic protected health information with respect to another component of the covered entity to the same extent that it would be required under subpart C of this part to protect such information if the health care component and the other component were separate and distinct legal entities; (C) If a person performs duties for both the health care component in the capacity of a member of the workforce of such component and for another component of the entity in the same capacity with respect to that component, such workforce member must not use or disclose protected health information created or received in the course of or incident to the member's work for the health care component in a way prohibited by subpart E of this part.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.105"
+  },
+  {
+    "section": "164.105(iii)",
+    "title": "Organizational requirements.",
+    "text": "(iii) Responsibilities of the covered entity. A covered entity that is a hybrid entity has the following responsibilities: (A) For purposes of subpart C of part 160 of this subchapter, pertaining to compliance and enforcement, the covered entity has the responsibility of complying with this part. (B) The covered entity is responsible for complying with \u00a7\u00a7 164.316(a) and 164.530(i), pertaining to the implementation of policies and procedures to ensure compliance with applicable requirements of this part, including the safeguard requirements in paragraph (a)(2)(ii) of this section. (C) The covered entity is responsible for complying with \u00a7\u00a7 164.314 and 164.504 regarding business associate arrangements and other organizational requirements. (D) The covered entity is responsible for designating the components that are part of one or more health care components of the covered entity and documenting the designation in accordance with paragraph (c) of this section, provided that, if the covered entity designates one or more health care components, it must include any component that would meet the definition of a covered entity or business associate if it were a separate legal entity. Health care component(s) also may include a component only to the extent that it performs covered functions. (b)(1) Standard: Affiliated covered entities. Legally separate covered entities that are affiliated may designate themselves as a single covered entity for purposes of this part.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.105"
+  },
+  {
+    "section": "164.105(2)",
+    "title": "Organizational requirements.",
+    "text": "(2) Implementation specifications \u2014(i) Requirements for designation of an affiliated covered entity. (A) Legally separate covered entities may designate themselves (including any health care component of such covered entity) as a single affiliated covered entity, for purposes of this part, if all of the covered entities designated are under common ownership or control. (B) The designation of an affiliated covered entity must be documented and the documentation maintained as required by paragraph (c) of this section.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.105"
+  },
+  {
+    "section": "164.105(ii)",
+    "title": "Organizational requirements.",
+    "text": "(ii) Safeguard requirements. An affiliated covered entity must ensure that it complies with the applicable requirements of this part, including, if the affiliated covered entity combines the functions of a health plan, health care provider, or health care clearinghouse, \u00a7\u00a7 164.308(a)(4)(ii)(A) and 164.504(g), as applicable. (c)(1) Standard: Documentation. A covered entity must maintain a written or electronic record of a designation as required by paragraphs (a) or (b) of this section.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.105"
+  },
+  {
+    "section": "164.105(2)",
+    "title": "Organizational requirements.",
+    "text": "(2) Implementation specification: Retention period. A covered entity must retain the documentation as required by paragraph (c)(1) of this section for 6 years from the date of its creation or the date when it last was in effect, whichever is later.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.105"
+  },
+  {
+    "section": "164.306(a)",
+    "title": "Security standards: General rules.",
+    "text": "(a) General requirements. Covered entities and business associates must do the following:",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.306"
+  },
+  {
+    "section": "164.306(1)",
+    "title": "Security standards: General rules.",
+    "text": "(1) Ensure the confidentiality, integrity, and availability of all electronic protected health information the covered entity or business associate creates, receives, maintains, or transmits.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.306"
+  },
+  {
+    "section": "164.306(2)",
+    "title": "Security standards: General rules.",
+    "text": "(2) Protect against any reasonably anticipated threats or hazards to the security or integrity of such information.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.306"
+  },
+  {
+    "section": "164.306(3)",
+    "title": "Security standards: General rules.",
+    "text": "(3) Protect against any reasonably anticipated uses or disclosures of such information that are not permitted or required under subpart E of this part.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.306"
+  },
+  {
+    "section": "164.306(4)",
+    "title": "Security standards: General rules.",
+    "text": "(4) Ensure compliance with this subpart by its workforce.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.306"
+  },
+  {
+    "section": "164.306(b)",
+    "title": "Security standards: General rules.",
+    "text": "(b) Flexibility of approach. (1) Covered entities and business associates may use any security measures that allow the covered entity or business associate to reasonably and appropriately implement the standards and implementation specifications as specified in this subpart.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.306"
+  },
+  {
+    "section": "164.306(2)",
+    "title": "Security standards: General rules.",
+    "text": "(2) In deciding which security measures to use, a covered entity or business associate must take into account the following factors:",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.306"
+  },
+  {
+    "section": "164.306(i)",
+    "title": "Security standards: General rules.",
+    "text": "(i) The size, complexity, and capabilities of the covered entity or business associate.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.306"
+  },
+  {
+    "section": "164.306(ii)",
+    "title": "Security standards: General rules.",
+    "text": "(ii) The covered entity's or the business associate's technical infrastructure, hardware, and software security capabilities.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.306"
+  },
+  {
+    "section": "164.306(iv)",
+    "title": "Security standards: General rules.",
+    "text": "(iv) The probability and criticality of potential risks to electronic protected health information.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.306"
+  },
+  {
+    "section": "164.306(c)",
+    "title": "Security standards: General rules.",
+    "text": "(c) Standards. A covered entity or business associate must comply with the applicable standards as provided in this section and in \u00a7\u00a7 164.308, 164.310, 164.312, 164.314 and 164.316 with respect to all electronic protected health information.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.306"
+  },
+  {
+    "section": "164.306(d)",
+    "title": "Security standards: General rules.",
+    "text": "(d) Implementation specifications. In this subpart:",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.306"
+  },
+  {
+    "section": "164.306(1)",
+    "title": "Security standards: General rules.",
+    "text": "(1) Implementation specifications are required or addressable. If an implementation specification is required, the word \u201cRequired\u201d appears in parentheses after the title of the implementation specification. If an implementation specification is addressable, the word \u201cAddressable\u201d appears in parentheses after the title of the implementation specification.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.306"
+  },
+  {
+    "section": "164.306(2)",
+    "title": "Security standards: General rules.",
+    "text": "(2) When a standard adopted in \u00a7 164.308, \u00a7 164.310, \u00a7 164.312, \u00a7 164.314, or \u00a7 164.316 includes required implementation specifications, a covered entity or business associate must implement the implementation specifications.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.306"
+  },
+  {
+    "section": "164.306(3)",
+    "title": "Security standards: General rules.",
+    "text": "(3) When a standard adopted in \u00a7 164.308, \u00a7 164.310, \u00a7 164.312, \u00a7 164.314, or \u00a7 164.316 includes addressable implementation specifications, a covered entity or business associate must\u2014",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.306"
+  },
+  {
+    "section": "164.306(i)",
+    "title": "Security standards: General rules.",
+    "text": "(i) Assess whether each implementation specification is a reasonable and appropriate safeguard in its environment, when analyzed with reference to the likely contribution to protecting electronic protected health information; and",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.306"
+  },
+  {
+    "section": "164.306(ii)",
+    "title": "Security standards: General rules.",
+    "text": "(ii) As applicable to the covered entity or business associate\u2014 (A) Implement the implementation specification if reasonable and appropriate; or (B) If implementing the implementation specification is not reasonable and appropriate\u2014 $( 1 ) Document why it would not be reasonable and appropriate to implement the implementation specification; and $( 2 ) Implement an equivalent alternative measure if reasonable and appropriate.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.306"
+  },
+  {
+    "section": "164.306(e)",
+    "title": "Security standards: General rules.",
+    "text": "(e) Maintenance. A covered entity or business associate must review and modify the security measures implemented under this subpart as needed to continue provision of reasonable and appropriate protection of electronic protected health information, and update documentation of such security measures in accordance with \u00a7 164.316(b)(2)(iii).",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.306"
+  },
+  {
+    "section": "164.308(a)",
+    "title": "Administrative safeguards.",
+    "text": "(a) A covered entity or business associate must, in accordance with \u00a7 164.306: (1)(i) Standard: Security management process. Implement policies and procedures to prevent, detect, contain, and correct security violations.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.308"
+  },
+  {
+    "section": "164.308(ii)",
+    "title": "Administrative safeguards.",
+    "text": "(ii) Implementation specifications: (A) Risk analysis (Required). Conduct an accurate and thorough assessment of the potential risks and vulnerabilities to the confidentiality, integrity, and availability of electronic protected health information held by the covered entity or business associate. (B) Risk management (Required). Implement security measures sufficient to reduce risks and vulnerabilities to a reasonable and appropriate level to comply with \u00a7 164.306(a). (C) Sanction policy (Required). Apply appropriate sanctions against workforce members who fail to comply with the security policies and procedures of the covered entity or business associate. (D) Information system activity review (Required). Implement procedures to regularly review records of information system activity, such as audit logs, access reports, and security incident tracking reports.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.308"
+  },
+  {
+    "section": "164.308(2)",
+    "title": "Administrative safeguards.",
+    "text": "(2) Standard: Assigned security responsibility. Identify the security official who is responsible for the development and implementation of the policies and procedures required by this subpart for the covered entity or business associate. (3)(i) Standard: Workforce security. Implement policies and procedures to ensure that all members of its workforce have appropriate access to electronic protected health information, as provided under paragraph (a)(4) of this section, and to prevent those workforce members who do not have access under paragraph (a)(4) of this section from obtaining access to electronic protected health information.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.308"
+  },
+  {
+    "section": "164.308(ii)",
+    "title": "Administrative safeguards.",
+    "text": "(ii) Implementation specifications: (A) Authorization and/or supervision (Addressable). Implement procedures for the authorization and/or supervision of workforce members who work with electronic protected health information or in locations where it might be accessed. (B) Workforce clearance procedure (Addressable). Implement procedures to determine that the access of a workforce member to electronic protected health information is appropriate. (C) Termination procedures (Addressable). Implement procedures for terminating access to electronic protected health information when the employment of, or other arrangement with, a workforce member ends or as required by determinations made as specified in paragraph (a)(3)(ii)(B) of this section. (4)(i) Standard: Information access management. Implement policies and procedures for authorizing access to electronic protected health information that are consistent with the applicable requirements of subpart E of this part.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.308"
+  },
+  {
+    "section": "164.308(ii)",
+    "title": "Administrative safeguards.",
+    "text": "(ii) Implementation specifications: (A) Isolating health care clearinghouse functions (Required). If a health care clearinghouse is part of a larger organization, the clearinghouse must implement policies and procedures that protect the electronic protected health information of the clearinghouse from unauthorized access by the larger organization. (B) Access authorization (Addressable). Implement policies and procedures for granting access to electronic protected health information, for example, through access to a workstation, transaction, program, process, or other mechanism. (C) Access establishment and modification (Addressable). Implement policies and procedures that, based upon the covered entity's or the business associate's access authorization policies, establish, document, review, and modify a user's right of access to a workstation, transaction, program, or process. (5)(i) Standard: Security awareness and training. Implement a security awareness and training program for all members of its workforce (including management).",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.308"
+  },
+  {
+    "section": "164.308(ii)",
+    "title": "Administrative safeguards.",
+    "text": "(ii) Implementation specifications. Implement: (A) Security reminders (Addressable). Periodic security updates. (B) Protection from malicious software (Addressable). Procedures for guarding against, detecting, and reporting malicious software. (C) Log-in monitoring (Addressable). Procedures for monitoring log-in attempts and reporting discrepancies. (D) Password management (Addressable). Procedures for creating, changing, and safeguarding passwords. (6)(i) Standard: Security incident procedures. Implement policies and procedures to address security incidents.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.308"
+  },
+  {
+    "section": "164.308(ii)",
+    "title": "Administrative safeguards.",
+    "text": "(ii) Implementation specification: Response and reporting (Required). Identify and respond to suspected or known security incidents; mitigate, to the extent practicable, harmful effects of security incidents that are known to the covered entity or business associate; and document security incidents and their outcomes. (7)(i) Standard: Contingency plan. Establish (and implement as needed) policies and procedures for responding to an emergency or other occurrence (for example, fire, vandalism, system failure, and natural disaster) that damages systems that contain electronic protected health information.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.308"
+  },
+  {
+    "section": "164.308(ii)",
+    "title": "Administrative safeguards.",
+    "text": "(ii) Implementation specifications: (A) Data backup plan (Required). Establish and implement procedures to create and maintain retrievable exact copies of electronic protected health information. (B) Disaster recovery plan (Required). Establish (and implement as needed) procedures to restore any loss of data. (C) Emergency mode operation plan (Required). Establish (and implement as needed) procedures to enable continuation of critical business processes for protection of the security of electronic protected health information while operating in emergency mode. (D) Testing and revision procedures (Addressable). Implement procedures for periodic testing and revision of contingency plans. (E) Applications and data criticality analysis (Addressable). Assess the relative criticality of specific applications and data in support of other contingency plan components.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.308"
+  },
+  {
+    "section": "164.308(8)",
+    "title": "Administrative safeguards.",
+    "text": "(8) Standard: Evaluation. Perform a periodic technical and nontechnical evaluation, based initially upon the standards implemented under this rule and, subsequently, in response to environmental or operational changes affecting the security of electronic protected health information, that establishes the extent to which a covered entity's or business associate's security policies and procedures meet the requirements of this subpart. (b)(1) Business associate contracts and other arrangements. A covered entity may permit a business associate to create, receive, maintain, or transmit electronic protected health information on the covered entity's behalf only if the covered entity obtains satisfactory assurances, in accordance with \u00a7 164.314(a), that the business associate will appropriately safeguard the information. A covered entity is not required to obtain such satisfactory assurances from a business associate that is a subcontractor.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.308"
+  },
+  {
+    "section": "164.308(2)",
+    "title": "Administrative safeguards.",
+    "text": "(2) A business associate may permit a business associate that is a subcontractor to create, receive, maintain, or transmit electronic protected health information on its behalf only if the business associate obtains satisfactory assurances, in accordance with \u00a7 164.314(a), that the subcontractor will appropriately safeguard the information.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.308"
+  },
+  {
+    "section": "164.308(3)",
+    "title": "Administrative safeguards.",
+    "text": "(3) Implementation specifications: Written contract or other arrangement (Required). Document the satisfactory assurances required by paragraph (b)(1) or (b)(2) of this section through a written contract or other arrangement with the business associate that meets the applicable requirements of \u00a7 164.314(a).",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.308"
+  },
+  {
+    "section": "164.310(i)",
+    "title": "Physical safeguards.",
+    "text": "(i) Contingency operations (Addressable). Establish (and implement as needed) procedures that allow facility access in support of restoration of lost data under the disaster recovery plan and emergency mode operations plan in the event of an emergency.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.310"
+  },
+  {
+    "section": "164.310(ii)",
+    "title": "Physical safeguards.",
+    "text": "(ii) Facility security plan (Addressable). Implement policies and procedures to safeguard the facility and the equipment therein from unauthorized physical access, tampering, and theft.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.310"
+  },
+  {
+    "section": "164.310(iii)",
+    "title": "Physical safeguards.",
+    "text": "(iii) Access control and validation procedures (Addressable). Implement procedures to control and validate a person's access to facilities based on their role or function, including visitor control, and control of access to software programs for testing and revision.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.310"
+  },
+  {
+    "section": "164.310(iv)",
+    "title": "Physical safeguards.",
+    "text": "(iv) Maintenance records (Addressable). Implement policies and procedures to document repairs and modifications to the physical components of a facility which are related to security (for example, hardware, walls, doors, and locks).",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.310"
+  },
+  {
+    "section": "164.310(b)",
+    "title": "Physical safeguards.",
+    "text": "(b) Standard: Workstation use. Implement policies and procedures that specify the proper functions to be performed, the manner in which those functions are to be performed, and the physical attributes of the surroundings of a specific workstation or class of workstation that can access electronic protected health information.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.310"
+  },
+  {
+    "section": "164.310(c)",
+    "title": "Physical safeguards.",
+    "text": "(c) Standard: Workstation security. Implement physical safeguards for all workstations that access electronic protected health information, to restrict access to authorized users. (d)(1) Standard: Device and media controls. Implement policies and procedures that govern the receipt and removal of hardware and electronic media that contain electronic protected health information into and out of a facility, and the movement of these items within the facility.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.310"
+  },
+  {
+    "section": "164.310(i)",
+    "title": "Physical safeguards.",
+    "text": "(i) Disposal (Required). Implement policies and procedures to address the final disposition of electronic protected health information, and/or the hardware or electronic media on which it is stored.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.310"
+  },
+  {
+    "section": "164.310(ii)",
+    "title": "Physical safeguards.",
+    "text": "(ii) Media re-use (Required). Implement procedures for removal of electronic protected health information from electronic media before the media are made available for re-use.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.310"
+  },
+  {
+    "section": "164.310(iii)",
+    "title": "Physical safeguards.",
+    "text": "(iii) Accountability (Addressable). Maintain a record of the movements of hardware and electronic media and any person responsible therefore.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.310"
+  },
+  {
+    "section": "164.310(iv)",
+    "title": "Physical safeguards.",
+    "text": "(iv) Data backup and storage (Addressable). Create a retrievable, exact copy of electronic protected health information, when needed, before movement of equipment.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.310"
+  },
+  {
+    "section": "164.312(i)",
+    "title": "Technical safeguards.",
+    "text": "(i) Unique user identification (Required). Assign a unique name and/or number for identifying and tracking user identity.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.312"
+  },
+  {
+    "section": "164.312(ii)",
+    "title": "Technical safeguards.",
+    "text": "(ii) Emergency access procedure (Required). Establish (and implement as needed) procedures for obtaining necessary electronic protected health information during an emergency.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.312"
+  },
+  {
+    "section": "164.312(iii)",
+    "title": "Technical safeguards.",
+    "text": "(iii) Automatic logoff (Addressable). Implement electronic procedures that terminate an electronic session after a predetermined time of inactivity.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.312"
+  },
+  {
+    "section": "164.312(iv)",
+    "title": "Technical safeguards.",
+    "text": "(iv) Encryption and decryption (Addressable). Implement a mechanism to encrypt and decrypt electronic protected health information.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.312"
+  },
+  {
+    "section": "164.312(b)",
+    "title": "Technical safeguards.",
+    "text": "(b) Standard: Audit controls. Implement hardware, software, and/or procedural mechanisms that record and examine activity in information systems that contain or use electronic protected health information. (c)(1) Standard: Integrity. Implement policies and procedures to protect electronic protected health information from improper alteration or destruction.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.312"
+  },
+  {
+    "section": "164.312(2)",
+    "title": "Technical safeguards.",
+    "text": "(2) Implementation specification: Mechanism to authenticate electronic protected health information (Addressable). Implement electronic mechanisms to corroborate that electronic protected health information has not been altered or destroyed in an unauthorized manner.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.312"
+  },
+  {
+    "section": "164.312(d)",
+    "title": "Technical safeguards.",
+    "text": "(d) Standard: Person or entity authentication. Implement procedures to verify that a person or entity seeking access to electronic protected health information is the one claimed. (e)(1) Standard: Transmission security. Implement technical security measures to guard against unauthorized access to electronic protected health information that is being transmitted over an electronic communications network.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.312"
+  },
+  {
+    "section": "164.312(i)",
+    "title": "Technical safeguards.",
+    "text": "(i) Integrity controls (Addressable). Implement security measures to ensure that electronically transmitted electronic protected health information is not improperly modified without detection until disposed of.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.312"
+  },
+  {
+    "section": "164.312(ii)",
+    "title": "Technical safeguards.",
+    "text": "(ii) Encryption (Addressable). Implement a mechanism to encrypt electronic protected health information whenever deemed appropriate.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.312"
+  },
+  {
+    "section": "164.314(2)",
+    "title": "Organizational requirements.",
+    "text": "(2) Implementation specifications (Required) \u2014(i) Business associate contracts. The contract must provide that the business associate will\u2014 (A) Comply with the applicable requirements of this subpart; (B) In accordance with \u00a7 164.308(b)(2), ensure that any subcontractors that create, receive, maintain, or transmit electronic protected health information on behalf of the business associate agree to comply with the applicable requirements of this subpart by entering into a contract or other arrangement that complies with this section; and (C) Report to the covered entity any security incident of which it becomes aware, including breaches of unsecured protected health information as required by \u00a7 164.410.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.314"
+  },
+  {
+    "section": "164.314(ii)",
+    "title": "Organizational requirements.",
+    "text": "(ii) Other arrangements. The covered entity is in compliance with paragraph (a)(1) of this section if it has another arrangement in place that meets the requirements of \u00a7 164.504(e)(3).",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.314"
+  },
+  {
+    "section": "164.314(iii)",
+    "title": "Organizational requirements.",
+    "text": "(iii) Business associate contracts with subcontractors. The requirements of paragraphs (a)(2)(i) and (a)(2)(ii) of this section apply to the contract or other arrangement between a business associate and a subcontractor required by \u00a7 164.308(b)(4) in the same manner as such requirements apply to contracts or other arrangements between a covered entity and business associate. (b)(1) Standard: Requirements for group health plans. Except when the only electronic protected health information disclosed to a plan sponsor is disclosed pursuant to \u00a7 164.504(f)(1)(ii) or (iii), or as authorized under \u00a7 164.508, a group health plan must ensure that its plan documents provide that the plan sponsor will reasonably and appropriately safeguard electronic protected health information created, received, maintained, or transmitted to or by the plan sponsor on behalf of the group health plan.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.314"
+  },
+  {
+    "section": "164.314(2)",
+    "title": "Organizational requirements.",
+    "text": "(2) Implementation specifications (Required). The plan documents of the group health plan must be amended to incorporate provisions to require the plan sponsor to\u2014",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.314"
+  },
+  {
+    "section": "164.314(i)",
+    "title": "Organizational requirements.",
+    "text": "(i) Implement administrative, physical, and technical safeguards that reasonably and appropriately protect the confidentiality, integrity, and availability of the electronic protected health information that it creates, receives, maintains, or transmits on behalf of the group health plan;",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.314"
+  },
+  {
+    "section": "164.314(ii)",
+    "title": "Organizational requirements.",
+    "text": "(ii) Ensure that the adequate separation required by \u00a7 164.504(f)(2)(iii) is supported by reasonable and appropriate security measures;",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.314"
+  },
+  {
+    "section": "164.314(iii)",
+    "title": "Organizational requirements.",
+    "text": "(iii) Ensure that any agent to whom it provides this information agrees to implement reasonable and appropriate security measures to protect the information; and",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.314"
+  },
+  {
+    "section": "164.314(iv)",
+    "title": "Organizational requirements.",
+    "text": "(iv) Report to the group health plan any security incident of which it becomes aware.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.314"
+  },
+  {
+    "section": "164.316(a)",
+    "title": "Policies and procedures and documentation requirements.",
+    "text": "(a) Standard: Policies and procedures. Implement reasonable and appropriate policies and procedures to comply with the standards, implementation specifications, or other requirements of this subpart, taking into account those factors specified in \u00a7 164.306(b)(2)(i), (ii), (iii), and (iv). This standard is not to be construed to permit or excuse an action that violates any other standard, implementation specification, or other requirements of this subpart. A covered entity or business associate may change its policies and procedures at any time, provided that the changes are documented and are implemented in accordance with this subpart. (b)(1) Standard: Documentation. (i) Maintain the policies and procedures implemented to comply with this subpart in written (which may be electronic) form; and",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.316"
+  },
+  {
+    "section": "164.316(ii)",
+    "title": "Policies and procedures and documentation requirements.",
+    "text": "(ii) If an action, activity or assessment is required by this subpart to be documented, maintain a written (which may be electronic) record of the action, activity, or assessment.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.316"
+  },
+  {
+    "section": "164.316(i)",
+    "title": "Policies and procedures and documentation requirements.",
+    "text": "(i) Time limit (Required). Retain the documentation required by paragraph (b)(1) of this section for 6 years from the date of its creation or the date when it last was in effect, whichever is later.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.316"
+  },
+  {
+    "section": "164.316(ii)",
+    "title": "Policies and procedures and documentation requirements.",
+    "text": "(ii) Availability (Required). Make documentation available to those persons responsible for implementing the procedures to which the documentation pertains.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.316"
+  },
+  {
+    "section": "164.316(iii)",
+    "title": "Policies and procedures and documentation requirements.",
+    "text": "(iii) Updates (Required). Review documentation periodically, and update as needed, in response to environmental or operational changes affecting the security of the electronic protected health information.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.316"
+  },
+  {
+    "section": "164.318(a)",
+    "title": "Compliance dates for the initial implementation of the security standards.",
+    "text": "(a) Health plan. (1) A health plan that is not a small health plan must comply with the applicable requirements of this subpart no later than April 20, 2005.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.318"
+  },
+  {
+    "section": "164.318(2)",
+    "title": "Compliance dates for the initial implementation of the security standards.",
+    "text": "(2) A small health plan must comply with the applicable requirements of this subpart no later than April 20, 2006.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.318"
+  },
+  {
+    "section": "164.318(b)",
+    "title": "Compliance dates for the initial implementation of the security standards.",
+    "text": "(b) Health care clearinghouse. A health care clearinghouse must comply with the applicable requirements of this subpart no later than April 20, 2005.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.318"
+  },
+  {
+    "section": "164.318(c)",
+    "title": "Compliance dates for the initial implementation of the security standards.",
+    "text": "(c) Health care provider. A covered health care provider must comply with the applicable requirements of this subpart no later than April 20, 2005.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.318"
+  },
+  {
+    "section": "164.402(i)",
+    "title": "Definitions.",
+    "text": "(i) Any unintentional acquisition, access, or use of protected health information by a workforce member or person acting under the authority of a covered entity or a business associate, if such acquisition, access, or use was made in good faith and within the scope of authority and does not result in further use or disclosure in a manner not permitted under subpart E of this part.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.402"
+  },
+  {
+    "section": "164.402(ii)",
+    "title": "Definitions.",
+    "text": "(ii) Any inadvertent disclosure by a person who is authorized to access protected health information at a covered entity or business associate to another person authorized to access protected health information at the same covered entity or business associate, or organized health care arrangement in which the covered entity participates, and the information received as a result of such disclosure is not further used or disclosed in a manner not permitted under subpart E of this part.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.402"
+  },
+  {
+    "section": "164.402(iii)",
+    "title": "Definitions.",
+    "text": "(iii) A disclosure of protected health information where a covered entity or business associate has a good faith belief that an unauthorized person to whom the disclosure was made would not reasonably have been able to retain such information.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.402"
+  },
+  {
+    "section": "164.402(2)",
+    "title": "Definitions.",
+    "text": "(2) Except as provided in paragraph (1) of this definition, an acquisition, access, use, or disclosure of protected health information in a manner not permitted under subpart E is presumed to be a breach unless the covered entity or business associate, as applicable, demonstrates that there is a low probability that the protected health information has been compromised based on a risk assessment of at least the following factors:",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.402"
+  },
+  {
+    "section": "164.402(i)",
+    "title": "Definitions.",
+    "text": "(i) The nature and extent of the protected health information involved, including the types of identifiers and the likelihood of re-identification;",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.402"
+  },
+  {
+    "section": "164.402(ii)",
+    "title": "Definitions.",
+    "text": "(ii) The unauthorized person who used the protected health information or to whom the disclosure was made;",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.402"
+  },
+  {
+    "section": "164.402(iii)",
+    "title": "Definitions.",
+    "text": "(iii) Whether the protected health information was actually acquired or viewed; and",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.402"
+  },
+  {
+    "section": "164.402(iv)",
+    "title": "Definitions.",
+    "text": "(iv) The extent to which the risk to the protected health information has been mitigated. Unsecured protected health information means protected health information that is not rendered unusable, unreadable, or indecipherable to unauthorized persons through the use of a technology or methodology specified by the Secretary in the guidance issued under section 13402(h)(2) of Public Law 111-5.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.402"
+  },
+  {
+    "section": "164.404(a)",
+    "title": "Notification to individuals.",
+    "text": "(a) Standard \u2014(1) General rule. A covered entity shall, following the discovery of a breach of unsecured protected health information, notify each individual whose unsecured protected health information has been, or is reasonably believed by the covered entity to have been, accessed, acquired, used, or disclosed as a result of such breach.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.404"
+  },
+  {
+    "section": "164.404(2)",
+    "title": "Notification to individuals.",
+    "text": "(2) Breaches treated as discovered. For purposes of paragraph (a)(1) of this section, \u00a7\u00a7 164.406(a), and 164.408(a), a breach shall be treated as discovered by a covered entity as of the first day on which such breach is known to the covered entity, or, by exercising reasonable diligence would have been known to the covered entity. A covered entity shall be deemed to have knowledge of a breach if such breach is known, or by exercising reasonable diligence would have been known, to any person, other than the person committing the breach, who is a workforce member or agent of the covered entity (determined in accordance with the federal common law of agency).",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.404"
+  },
+  {
+    "section": "164.404(b)",
+    "title": "Notification to individuals.",
+    "text": "(b) Implementation specification: Timeliness of notification. Except as provided in \u00a7 164.412, a covered entity shall provide the notification required by paragraph (a) of this section without unreasonable delay and in no case later than 60 calendar days after discovery of a breach.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.404"
+  },
+  {
+    "section": "164.404(c)",
+    "title": "Notification to individuals.",
+    "text": "(c) Implementation specifications: Content of notification \u2014(1) Elements. The notification required by paragraph (a) of this section shall include, to the extent possible: (A) A brief description of what happened, including the date of the breach and the date of the discovery of the breach, if known; (B) A description of the types of unsecured protected health information that were involved in the breach (such as whether full name, social security number, date of birth, home address, account number, diagnosis, disability code, or other types of information were involved); (C) Any steps individuals should take to protect themselves from potential harm resulting from the breach; (D) A brief description of what the covered entity involved is doing to investigate the breach, to mitigate harm to individuals, and to protect against any further breaches; and (E) Contact procedures for individuals to ask questions or learn additional information, which shall include a toll-free telephone number, an e-mail address, Web site, or postal address.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.404"
+  },
+  {
+    "section": "164.404(2)",
+    "title": "Notification to individuals.",
+    "text": "(2) Plain language requirement. The notification required by paragraph (a) of this section shall be written in plain language.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.404"
+  },
+  {
+    "section": "164.404(d)",
+    "title": "Notification to individuals.",
+    "text": "(d) Implementation specifications: Methods of individual notification. The notification required by paragraph (a) of this section shall be provided in the following form:",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.404"
+  },
+  {
+    "section": "164.404(1)",
+    "title": "Notification to individuals.",
+    "text": "(1) Written notice. (i) Written notification by first-class mail to the individual at the last known address of the individual or, if the individual agrees to electronic notice and such agreement has not been withdrawn, by electronic mail. The notification may be provided in one or more mailings as information is available.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.404"
+  },
+  {
+    "section": "164.404(ii)",
+    "title": "Notification to individuals.",
+    "text": "(ii) If the covered entity knows the individual is deceased and has the address of the next of kin or personal representative of the individual (as specified under \u00a7 164.502(g)(4) of subpart E), written notification by first-class mail to either the next of kin or personal representative of the individual. The notification may be provided in one or more mailings as information is available.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.404"
+  },
+  {
+    "section": "164.404(2)",
+    "title": "Notification to individuals.",
+    "text": "(2) Substitute notice. In the case in which there is insufficient or out-of-date contact information that precludes written notification to the individual under paragraph (d)(1)(i) of this section, a substitute form of notice reasonably calculated to reach the individual shall be provided. Substitute notice need not be provided in the case in which there is insufficient or out-of-date contact information that precludes written notification to the next of kin or personal representative of the individual under paragraph (d)(1)(ii).",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.404"
+  },
+  {
+    "section": "164.404(i)",
+    "title": "Notification to individuals.",
+    "text": "(i) In the case in which there is insufficient or out-of-date contact information for fewer than 10 individuals, then such substitute notice may be provided by an alternative form of written notice, telephone, or other means.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.404"
+  },
+  {
+    "section": "164.404(ii)",
+    "title": "Notification to individuals.",
+    "text": "(ii) In the case in which there is insufficient or out-of-date contact information for 10 or more individuals, then such substitute notice shall: (A) Be in the form of either a conspicuous posting for a period of 90 days on the home page of the Web site of the covered entity involved, or conspicuous notice in major print or broadcast media in geographic areas where the individuals affected by the breach likely reside; and (B) Include a toll-free phone number that remains active for at least 90 days where an individual can learn whether the individual's unsecured protected health information may be included in the breach.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.404"
+  },
+  {
+    "section": "164.404(3)",
+    "title": "Notification to individuals.",
+    "text": "(3) Additional notice in urgent situations. In any case deemed by the covered entity to require urgency because of possible imminent misuse of unsecured protected health information, the covered entity may provide information to individuals by telephone or other means, as appropriate, in addition to notice provided under paragraph (d)(1) of this section.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.404"
+  },
+  {
+    "section": "164.406(a)",
+    "title": "Notification to the media.",
+    "text": "(a) Standard. For a breach of unsecured protected health information involving more than 500 residents of a State or jurisdiction, a covered entity shall, following the discovery of the breach as provided in \u00a7 164.404(a)(2), notify prominent media outlets serving the State or jurisdiction.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.406"
+  },
+  {
+    "section": "164.406(b)",
+    "title": "Notification to the media.",
+    "text": "(b) Implementation specification: Timeliness of notification. Except as provided in \u00a7 164.412, a covered entity shall provide the notification required by paragraph (a) of this section without unreasonable delay and in no case later than 60 calendar days after discovery of a breach.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.406"
+  },
+  {
+    "section": "164.406(c)",
+    "title": "Notification to the media.",
+    "text": "(c) Implementation specifications: Content of notification. The notification required by paragraph (a) of this section shall meet the requirements of \u00a7 164.404(c).",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.406"
+  },
+  {
+    "section": "164.408(a)",
+    "title": "Notification to the Secretary.",
+    "text": "(a) Standard. A covered entity shall, following the discovery of a breach of unsecured protected health information as provided in \u00a7 164.404(a)(2), notify the Secretary.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.408"
+  },
+  {
+    "section": "164.408(b)",
+    "title": "Notification to the Secretary.",
+    "text": "(b) Implementation specifications: Breaches involving 500 or more individuals. For breaches of unsecured protected health information involving 500 or more individuals, a covered entity shall, except as provided in \u00a7 164.412, provide the notification required by paragraph (a) of this section contemporaneously with the notice required by \u00a7 164.404(a) and in the manner specified on the HHS Web site.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.408"
+  },
+  {
+    "section": "164.408(c)",
+    "title": "Notification to the Secretary.",
+    "text": "(c) Implementation specifications: Breaches involving less than 500 individuals. For breaches of unsecured protected health information involving less than 500 individuals, a covered entity shall maintain a log or other documentation of such breaches and, not later than 60 days after the end of each calendar year, provide the notification required by paragraph (a) of this section for breaches discovered during the preceding calendar year, in the manner specified on the HHS web site.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.408"
+  },
+  {
+    "section": "164.410(a)",
+    "title": "Notification by a business associate.",
+    "text": "(a) Standard \u2014(1) General rule. A business associate shall, following the discovery of a breach of unsecured protected health information, notify the covered entity of such breach.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.410"
+  },
+  {
+    "section": "164.410(2)",
+    "title": "Notification by a business associate.",
+    "text": "(2) Breaches treated as discovered. For purposes of paragraph (a)(1) of this section, a breach shall be treated as discovered by a business associate as of the first day on which such breach is known to the business associate or, by exercising reasonable diligence, would have been known to the business associate. A business associate shall be deemed to have knowledge of a breach if the breach is known, or by exercising reasonable diligence would have been known, to any person, other than the person committing the breach, who is an employee, officer, or other agent of the business associate (determined in accordance with the Federal common law of agency).",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.410"
+  },
+  {
+    "section": "164.410(b)",
+    "title": "Notification by a business associate.",
+    "text": "(b) Implementation specifications: Timeliness of notification. Except as provided in \u00a7 164.412, a business associate shall provide the notification required by paragraph (a) of this section without unreasonable delay and in no case later than 60 calendar days after discovery of a breach.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.410"
+  },
+  {
+    "section": "164.410(c)",
+    "title": "Notification by a business associate.",
+    "text": "(c) Implementation specifications: Content of notification. (1) The notification required by paragraph (a) of this section shall include, to the extent possible, the identification of each individual whose unsecured protected health information has been, or is reasonably believed by the business associate to have been, accessed, acquired, used, or disclosed during the breach.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.410"
+  },
+  {
+    "section": "164.410(2)",
+    "title": "Notification by a business associate.",
+    "text": "(2) A business associate shall provide the covered entity with any other available information that the covered entity is required to include in notification to the individual under \u00a7 164.404(c) at the time of the notification required by paragraph (a) of this section or promptly thereafter as information becomes available.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.410"
+  },
+  {
+    "section": "164.412(a)",
+    "title": "Law enforcement delay.",
+    "text": "(a) If the statement is in writing and specifies the time for which a delay is required, delay such notification, notice, or posting for the time period specified by the official; or",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.412"
+  },
+  {
+    "section": "164.412(b)",
+    "title": "Law enforcement delay.",
+    "text": "(b) If the statement is made orally, document the statement, including the identity of the official making the statement, and delay the notification, notice, or posting temporarily and no longer than 30 days from the date of the oral statement, unless a written statement as described in paragraph (a) of this section is submitted during that time.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.412"
+  },
+  {
+    "section": "164.414(a)",
+    "title": "Administrative requirements and burden of proof.",
+    "text": "(a) Administrative requirements. A covered entity is required to comply with the administrative requirements of \u00a7 164.530(b), (d), (e), (g), (h), (i), and (j) with respect to the requirements of this subpart.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.414"
+  },
+  {
+    "section": "164.414(b)",
+    "title": "Administrative requirements and burden of proof.",
+    "text": "(b) Burden of proof. In the event of a use or disclosure in violation of subpart E, the covered entity or business associate, as applicable, shall have the burden of demonstrating that all notifications were made as required by this subpart or that the use or disclosure did not constitute a breach, as defined at \u00a7 164.402.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.414"
+  },
+  {
+    "section": "164.502(b)",
+    "title": "Uses and disclosures of protected health information: General rules.",
+    "text": "(b) Standard: Minimum necessary \u2014 Minimum necessary applies. When using or disclosing protected health information or when requesting protected health information from another covered entity or business associate, a covered entity or business associate must make reasonable efforts to limit protected health information to the minimum necessary to accomplish the intended purpose of the use, disclosure, or request.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.502"
+  },
+  {
+    "section": "164.514(a)",
+    "title": "Other requirements relating to uses and disclosures of protected health information.",
+    "text": "(a) Standard: De-identification of protected health information. Health information that does not identify an individual and with respect to which there is no reasonable basis to believe that the information can be used to identify an individual is not individually identifiable health information.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.514"
+  },
+  {
+    "section": "164.514(b)",
+    "title": "Other requirements relating to uses and disclosures of protected health information.",
+    "text": "(b) Implementation specifications: Requirements for de-identification of protected health information. A covered entity may determine that health information is not individually identifiable health information only if:",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.514"
+  },
+  {
+    "section": "164.514(c)",
+    "title": "Other requirements relating to uses and disclosures of protected health information.",
+    "text": "(c) Implementation specifications: Re-identification. A covered entity may assign a code or other means of record identification to allow information de-identified under this section to be re-identified by the covered entity, provided that:",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.514"
+  },
+  {
+    "section": "164.520(a)",
+    "title": "Notice of privacy practices for protected health information.",
+    "text": "(a) Standard: Notice of privacy practices \u2014(1) Right to notice. Except as provided by paragraph (a)(3) or (4) of this section, an individual has a right to adequate notice of the uses and disclosures of protected health information that may be made by the covered entity, and of the individual's rights and the covered entity's legal duties with respect to protected health information.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.520"
+  },
+  {
+    "section": "164.520(2)",
+    "title": "Notice of privacy practices for protected health information.",
+    "text": "(2) Notice requirements for covered entities creating or maintaining records subject to 42 U.S.C. 290dd-2. As provided in 42 CFR 2.22, an individual who is the subject of records protected under 42 CFR part 2 has a right to adequate notice of the uses and disclosures of such records, and of the individual's rights and the covered entity's legal duties with respect to such records.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.520"
+  },
+  {
+    "section": "164.520(3)",
+    "title": "Notice of privacy practices for protected health information.",
+    "text": "(3) Exception for group health plans. (i) An individual enrolled in a group health plan has a right to notice: (A) From the group health plan, if, and to the extent that, such an individual does not receive health benefits under the group health plan through an insurance contract with a health insurance issuer or HMO; or (B) From the health insurance issuer or HMO with respect to the group health plan through which such individuals receive their health benefits under the group health plan.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.520"
+  },
+  {
+    "section": "164.520(ii)",
+    "title": "Notice of privacy practices for protected health information.",
+    "text": "(ii) A group health plan that provides health benefits solely through an insurance contract with a health insurance issuer or HMO, and that creates or receives protected health information in addition to summary health information as defined in \u00a7 164.504(a) or information on whether the individual is participating in the group health plan, or is enrolled in or has disenrolled from a health insurance issuer or HMO offered by the plan, must: (A) Maintain a notice under this section; and (B) Provide such notice upon request to any person. The provisions of paragraph (c)(1) of this section do not apply to such group health plan.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.520"
+  },
+  {
+    "section": "164.520(iii)",
+    "title": "Notice of privacy practices for protected health information.",
+    "text": "(iii) A group health plan that provides health benefits solely through an insurance contract with a health insurance issuer or HMO, and does not create or receive protected health information other than summary health information as defined in \u00a7 164.504(a) or information on whether an individual is participating in the group health plan, or is enrolled in or has disenrolled from a health insurance issuer or HMO offered by the plan, is not required to maintain or provide a notice under this section.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.520"
+  },
+  {
+    "section": "164.520(4)",
+    "title": "Notice of privacy practices for protected health information.",
+    "text": "(4) Exception for inmates. An inmate does not have a right to notice under this section, and the requirements of this section do not apply to a correctional institution that is a covered entity.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.520"
+  },
+  {
+    "section": "164.520(b)",
+    "title": "Notice of privacy practices for protected health information.",
+    "text": "(b) Implementation specifications: Content of notice \u2014(1) Required elements. The covered entity, including any covered entity receiving or maintaining records subject to 42 U.S.C. 290dd-2, must provide a notice that is written in plain language and that contains the elements required by this paragraph.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.520"
+  },
+  {
+    "section": "164.520(i)",
+    "title": "Notice of privacy practices for protected health information.",
+    "text": "(i) Header. The notice must contain the following statement as a header or otherwise prominently displayed: \u201cTHIS NOTICE DESCRIBES HOW MEDICAL INFORMATION ABOUT YOU MAY BE USED AND DISCLOSED AND HOW YOU CAN GET ACCESS TO THIS INFORMATION. PLEASE REVIEW IT CAREFULLY.\u201d",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.520"
+  },
+  {
+    "section": "164.520(ii)",
+    "title": "Notice of privacy practices for protected health information.",
+    "text": "(ii) Uses and disclosures. The notice must contain: (A) A description, including at least one example, of the types of uses and disclosures that the covered entity is permitted by this subpart to make for each of the following purposes: treatment, payment, and health care operations. (B) A description of each of the other purposes for which the covered entity is permitted or required by this subpart to use or disclose protected health information without the individual's written authorization. (C) If a use or disclosure for any purpose described in paragraphs (b)(1)(ii)(A) or (B) of this section is prohibited or materially limited by other applicable law, such as 42 CFR part 2, the description of such use or disclosure must reflect the more stringent law as defined in \u00a7 160.202 of this subchapter. (D) For each purpose described in paragraph (b)(1)(ii)(A) or (B) of this section, the description must include sufficient detail to place the individual on notice of the uses and disclosures that are permitted or required by this subpart and other applicable law, such as 42 CFR part 2. (E) A description of the types of uses and disclosures that require an authorization under \u00a7 164.508(a)(2)-(a)(4), a statement that other uses and disclosures not described in the notice will be made only with the individual's written authorization, and a statement that the individual may revoke an authorization as provided by \u00a7 164.508(b)(5). (F) A description, including at least one example, of the types of uses and disclosures prohibited under \u00a7 164.502(a)(5)(iii) in sufficient detail for an individual to understand the prohibition. (G) A description, including at least one example, of the types of uses and disclosures for which an attestation is required under \u00a7 164.509. (H) A statement adequate to put the individual on notice of the potential for information disclosed pursuant to this subpart to be subject to redisclosure by the recipient and no longer protected by this subpart",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.520"
+  },
+  {
+    "section": "164.520(iii)",
+    "title": "Notice of privacy practices for protected health information.",
+    "text": "(iii) Separate statements for certain uses or disclosures. If the covered entity intends to engage in any of the following activities, the description required by paragraph (b)(1)(ii)(A) or (B) of this section must include a separate statement informing the individual of such activities, as applicable: (A) In accordance with \u00a7 164.514(f)(1), the covered entity may contact the individual to raise funds for the covered entity and the individual has a right to opt out of receiving such communications; (B) In accordance with \u00a7 164.504(f), the group health plan, or a health insurance issuer or HMO with respect to a group health plan, may disclose protected health information to the sponsor of the plan; (C) If a covered entity that is a health plan, excluding an issuer of a long-term care policy falling within paragraph (1)(viii) of the definition of health plan, intends to use or disclose protected health information for underwriting purposes, a statement that the covered entity is prohibited from using or disclosing protected health information that is genetic information of an individual for such purposes; (D) Substance use disorder treatment records received from programs subject to 42 CFR part 2, or testimony relaying the content of such records, shall not be used or disclosed in civil, criminal, administrative, or legislative proceedings against the individual unless based on written consent, or a court order after notice and an opportunity to be heard is provided to the individual or the holder of the record, as provided in 42 CFR part 2. A court order authorizing use or disclosure must be accompanied by a subpoena or other legal requirement compelling disclosure before the requested record is used or disclosed; or (E) If a covered entity that creates or maintains records subject to 42 CFR part 2 intends to use or disclose such records for fundraising for the benefit of the covered entity, the individual must first be provided with a clear and conspicuous opportunity to elect not to receive any fundraising communications.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.520"
+  },
+  {
+    "section": "164.520(iv)",
+    "title": "Notice of privacy practices for protected health information.",
+    "text": "(iv) Individual rights. The notice must contain a statement of the individual's rights with respect to protected health information and a brief description of how the individual may exercise these rights, as follows: (A) The right to request restrictions on certain uses and disclosures of protected health information as provided by \u00a7 164.522(a), including a statement that the covered entity is not required to agree to a requested restriction, except in case of a disclosure restricted under \u00a7 164.522(a)(1)(vi); (B) The right to receive confidential communications of protected health information as provided by \u00a7 164.522(b), as applicable; (C) The right to inspect and copy protected health information as provided by \u00a7 164.524; (D) The right to amend protected health information as provided by \u00a7 164.526; (E) The right to receive an accounting of disclosures of protected health information as provided by \u00a7 164.528; and (F) The right of an individual, including an individual who has agreed to receive the notice electronically in accordance with paragraph (c)(3) of this section, to obtain a paper copy of the notice from the covered entity upon request.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.520"
+  },
+  {
+    "section": "164.520(v)",
+    "title": "Notice of privacy practices for protected health information.",
+    "text": "(v) Covered entity's duties. The notice must contain: (A) A statement that the covered entity is required by law to maintain the privacy of protected health information, to provide individuals with notice of its legal duties and privacy practices, and to notify affected individuals following a breach of unsecured protected health information; (B) A statement that the covered entity is required to abide by the terms of the notice currently in effect; and (C) For the covered entity to apply a change in a privacy practice that is described in the notice to protected health information that the covered entity created or received prior to issuing a revised notice, in accordance with \u00a7 164.530(i)(2)(ii), a statement that it reserves the right to change the terms of its notice and to make the new notice provisions effective for all protected health information that it maintains. The statement must also describe how it will provide individuals with a revised notice.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.520"
+  },
+  {
+    "section": "164.520(vi)",
+    "title": "Notice of privacy practices for protected health information.",
+    "text": "(vi) Complaints. The notice must contain a statement that individuals may complain to the covered entity and to the Secretary if they believe their privacy rights have been violated, a brief description of how the individual may file a complaint with the covered entity, and a statement that the individual will not be retaliated against for filing a complaint.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.520"
+  },
+  {
+    "section": "164.520(vii)",
+    "title": "Notice of privacy practices for protected health information.",
+    "text": "(vii) Contact. The notice must contain the name, or title, and telephone number of a person or office to contact for further information as required by \u00a7 164.530(a)(1)(ii).",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.520"
+  },
+  {
+    "section": "164.520(viii)",
+    "title": "Notice of privacy practices for protected health information.",
+    "text": "(viii) Effective date. The notice must contain the date on which the notice is first in effect, which may not be earlier than the date on which the notice is printed or otherwise published.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.520"
+  },
+  {
+    "section": "164.520(2)",
+    "title": "Notice of privacy practices for protected health information.",
+    "text": "(2) Optional elements. (i) In addition to the information required by paragraph (b)(1) of this section, if a covered entity elects to limit the uses or disclosures that it is permitted to make under this subpart, the covered entity may describe its more limited uses or disclosures in its notice, provided that the covered entity may not include in its notice a limitation affecting its right to make a use or disclosure that is required by law or permitted by \u00a7 164.512(j)(1)(i).",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.520"
+  },
+  {
+    "section": "164.520(ii)",
+    "title": "Notice of privacy practices for protected health information.",
+    "text": "(ii) For the covered entity to apply a change in its more limited uses and disclosures to protected health information created or received prior to issuing a revised notice, in accordance with \u00a7 164.530(i)(2)(ii), the notice must include the statements required by paragraph (b)(1)(v)(C) of this section.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.520"
+  },
+  {
+    "section": "164.520(3)",
+    "title": "Notice of privacy practices for protected health information.",
+    "text": "(3) Revisions to the notice. The covered entity must promptly revise and distribute its notice whenever there is a material change to the uses or disclosures, the individual's rights, the covered entity's legal duties, or other privacy practices stated in the notice. Except when required by law, a material change to any term of the notice may not be implemented prior to the effective date of the notice in which such material change is reflected.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.520"
+  },
+  {
+    "section": "164.520(c)",
+    "title": "Notice of privacy practices for protected health information.",
+    "text": "(c) Implementation specifications: Provision of notice. A covered entity must make the notice required by this section available on request to any person and to individuals as specified in paragraphs (c)(1) through (c)(3) of this section, as applicable.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.520"
+  },
+  {
+    "section": "164.520(1)",
+    "title": "Notice of privacy practices for protected health information.",
+    "text": "(1) Specific requirements for health plans. (i) A health plan must provide the notice: (A) No later than the compliance date for the health plan, to individuals then covered by the plan; (B) Thereafter, at the time of enrollment, to individuals who are new enrollees.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.520"
+  },
+  {
+    "section": "164.520(ii)",
+    "title": "Notice of privacy practices for protected health information.",
+    "text": "(ii) No less frequently than once every three years, the health plan must notify individuals then covered by the plan of the availability of the notice and how to obtain the notice.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.520"
+  },
+  {
+    "section": "164.520(iii)",
+    "title": "Notice of privacy practices for protected health information.",
+    "text": "(iii) The health plan satisfies the requirements of paragraph (c)(1) of this section if notice is provided to the named insured of a policy under which coverage is provided to the named insured and one or more dependents.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.520"
+  },
+  {
+    "section": "164.520(iv)",
+    "title": "Notice of privacy practices for protected health information.",
+    "text": "(iv) If a health plan has more than one notice, it satisfies the requirements of paragraph (c)(1) of this section by providing the notice that is relevant to the individual or other person requesting the notice.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.520"
+  },
+  {
+    "section": "164.520(v)",
+    "title": "Notice of privacy practices for protected health information.",
+    "text": "(v) If there is a material change to the notice: (A) A health plan that posts its notice on its web site in accordance with paragraph (c)(3)(i) of this section must prominently post the change or its revised notice on its web site by the effective date of the material change to the notice, and provide the revised notice, or information about the material change and how to obtain the revised notice, in its next annual mailing to individuals then covered by the plan. (B) A health plan that does not post its notice on a web site pursuant to paragraph (c)(3)(i) of this section must provide the revised notice, or information about the material change and how to obtain the revised notice, to individuals then covered by the plan within 60 days of the material revision to the notice.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.520"
+  },
+  {
+    "section": "164.520(2)",
+    "title": "Notice of privacy practices for protected health information.",
+    "text": "(2) Specific requirements for certain covered health care providers. A covered health care provider that has a direct treatment relationship with an individual must:",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.520"
+  },
+  {
+    "section": "164.520(i)",
+    "title": "Notice of privacy practices for protected health information.",
+    "text": "(i) Provide the notice: (A) No later than the date of the first service delivery, including service delivered electronically, to such individual after the compliance date for the covered health care provider; or (B) In an emergency treatment situation, as soon as reasonably practicable after the emergency treatment situation.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.520"
+  },
+  {
+    "section": "164.520(ii)",
+    "title": "Notice of privacy practices for protected health information.",
+    "text": "(ii) Except in an emergency treatment situation, make a good faith effort to obtain a written acknowledgment of receipt of the notice provided in accordance with paragraph (c)(2)(i) of this section, and if not obtained, document its good faith efforts to obtain such acknowledgment and the reason why the acknowledgment was not obtained;",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.520"
+  },
+  {
+    "section": "164.520(iii)",
+    "title": "Notice of privacy practices for protected health information.",
+    "text": "(iii) If the covered health care provider maintains a physical service delivery site: (A) Have the notice available at the service delivery site for individuals to request to take with them; and (B) Post the notice in a clear and prominent location where it is reasonable to expect individuals seeking service from the covered health care provider to be able to read the notice; and",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.520"
+  },
+  {
+    "section": "164.520(iv)",
+    "title": "Notice of privacy practices for protected health information.",
+    "text": "(iv) Whenever the notice is revised, make the notice available upon request on or after the effective date of the revision and promptly comply with the requirements of paragraph (c)(2)(iii) of this section, if applicable.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.520"
+  },
+  {
+    "section": "164.520(3)",
+    "title": "Notice of privacy practices for protected health information.",
+    "text": "(3) Specific requirements for electronic notice. (i) A covered entity that maintains a web site that provides information about the covered entity's customer services or benefits must prominently post its notice on the web site and make the notice available electronically through the web site.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.520"
+  },
+  {
+    "section": "164.520(ii)",
+    "title": "Notice of privacy practices for protected health information.",
+    "text": "(ii) A covered entity may provide the notice required by this section to an individual by e-mail, if the individual agrees to electronic notice and such agreement has not been withdrawn. If the covered entity knows that the e-mail transmission has failed, a paper copy of the notice must be provided to the individual. Provision of electronic notice by the covered entity will satisfy the provision requirements of paragraph (c) of this section when timely made in accordance with paragraph (c)(1) or (2) of this section.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.520"
+  },
+  {
+    "section": "164.520(iii)",
+    "title": "Notice of privacy practices for protected health information.",
+    "text": "(iii) For purposes of paragraph (c)(2)(i) of this section, if the first service delivery to an individual is delivered electronically, the covered health care provider must provide electronic notice automatically and contemporaneously in response to the individual's first request for service. The requirements in paragraph (c)(2)(ii) of this section apply to electronic notice.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.520"
+  },
+  {
+    "section": "164.520(iv)",
+    "title": "Notice of privacy practices for protected health information.",
+    "text": "(iv) The individual who is the recipient of electronic notice retains the right to obtain a paper copy of the notice from a covered entity upon request.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.520"
+  },
+  {
+    "section": "164.520(d)",
+    "title": "Notice of privacy practices for protected health information.",
+    "text": "(d) Implementation specifications: Joint notice by separate covered entities. Covered entities that participate in organized health care arrangements may comply with this section by a joint notice, provided that:",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.520"
+  },
+  {
+    "section": "164.520(1)",
+    "title": "Notice of privacy practices for protected health information.",
+    "text": "(1) The covered entities participating in the organized health care arrangement agree to abide by the terms of the notice with respect to protected health information created or received by the covered entity as part of its participation in the organized health care arrangement;",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.520"
+  },
+  {
+    "section": "164.520(2)",
+    "title": "Notice of privacy practices for protected health information.",
+    "text": "(2) The joint notice meets the implementation specifications in paragraph (b) of this section, except that the statements required by this section may be altered to reflect the fact that the notice covers more than one covered entity; and",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.520"
+  },
+  {
+    "section": "164.520(i)",
+    "title": "Notice of privacy practices for protected health information.",
+    "text": "(i) Describes with reasonable specificity the covered entities, or class of entities, to which the joint notice applies;",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.520"
+  },
+  {
+    "section": "164.520(ii)",
+    "title": "Notice of privacy practices for protected health information.",
+    "text": "(ii) Describes with reasonable specificity the service delivery sites, or classes of service delivery sites, to which the joint notice applies; and",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.520"
+  },
+  {
+    "section": "164.520(iii)",
+    "title": "Notice of privacy practices for protected health information.",
+    "text": "(iii) If applicable, states that the covered entities participating in the organized health care arrangement will share protected health information with each other, as necessary to carry out treatment, payment, or health care operations relating to the organized health care arrangement.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.520"
+  },
+  {
+    "section": "164.520(3)",
+    "title": "Notice of privacy practices for protected health information.",
+    "text": "(3) The covered entities included in the joint notice must provide the notice to individuals in accordance with the applicable implementation specifications of paragraph (c) of this section. Provision of the joint notice to an individual by any one of the covered entities included in the joint notice will satisfy the provision requirement of paragraph (c) of this section with respect to all others covered by the joint notice.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.520"
+  },
+  {
+    "section": "164.520(4)",
+    "title": "Notice of privacy practices for protected health information.",
+    "text": "(4) The permission in paragraph (d) of this section for covered entities that participate in an organized health care arrangement to issue a joint notice may not be construed to remove any obligations or duties of entities creating or maintaining records subject to 42 U.S.C. 290dd-2, or to remove any rights of patients who are the subjects of such records.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.520"
+  },
+  {
+    "section": "164.520(e)",
+    "title": "Notice of privacy practices for protected health information.",
+    "text": "(e) Implementation specifications: Documentation. A covered entity must document compliance with the notice requirements, as required by \u00a7 164.530(j), by retaining copies of the notices issued by the covered entity and, if applicable, any written acknowledgments of receipt of the notice or documentation of good faith efforts to obtain such written acknowledgment, in accordance with paragraph (c)(2)(ii) of this section.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.520"
+  },
+  {
+    "section": "164.528(a)",
+    "title": "Accounting of disclosures of protected health information.",
+    "text": "(a) Standard: Right to an accounting of disclosures of protected health information. (1) An individual has a right to receive an accounting of disclosures of protected health information made by a covered entity in the six years prior to the date on which the accounting is requested, except for disclosures:",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.528"
+  },
+  {
+    "section": "164.528(i)",
+    "title": "Accounting of disclosures of protected health information.",
+    "text": "(i) To carry out treatment, payment and health care operations as provided in \u00a7 164.506;",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.528"
+  },
+  {
+    "section": "164.528(ii)",
+    "title": "Accounting of disclosures of protected health information.",
+    "text": "(ii) To individuals of protected health information about them as provided in \u00a7 164.502;",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.528"
+  },
+  {
+    "section": "164.528(iii)",
+    "title": "Accounting of disclosures of protected health information.",
+    "text": "(iii) Incident to a use or disclosure otherwise permitted or required by this subpart, as provided in \u00a7 164.502;",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.528"
+  },
+  {
+    "section": "164.528(iv)",
+    "title": "Accounting of disclosures of protected health information.",
+    "text": "(iv) Pursuant to an authorization as provided in \u00a7 164.508;",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.528"
+  },
+  {
+    "section": "164.528(v)",
+    "title": "Accounting of disclosures of protected health information.",
+    "text": "(v) For the facility's directory or to persons involved in the individual's care or other notification purposes as provided in \u00a7 164.510;",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.528"
+  },
+  {
+    "section": "164.528(vi)",
+    "title": "Accounting of disclosures of protected health information.",
+    "text": "(vi) For national security or intelligence purposes as provided in \u00a7 164.512(k)(2);",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.528"
+  },
+  {
+    "section": "164.528(vii)",
+    "title": "Accounting of disclosures of protected health information.",
+    "text": "(vii) To correctional institutions or law enforcement officials as provided in \u00a7 164.512(k)(5);",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.528"
+  },
+  {
+    "section": "164.528(viii)",
+    "title": "Accounting of disclosures of protected health information.",
+    "text": "(viii) As part of a limited data set in accordance with \u00a7 164.514(e); or",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.528"
+  },
+  {
+    "section": "164.528(ix)",
+    "title": "Accounting of disclosures of protected health information.",
+    "text": "(ix) That occurred prior to the compliance date for the covered entity. (2)(i) The covered entity must temporarily suspend an individual's right to receive an accounting of disclosures to a health oversight agency or law enforcement official, as provided in \u00a7 164.512(d) or (f), respectively, for the time specified by such agency or official, if such agency or official provides the covered entity with a written statement that such an accounting to the individual would be reasonably likely to impede the agency's activities and specifying the time for which such a suspension is required.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.528"
+  },
+  {
+    "section": "164.528(ii)",
+    "title": "Accounting of disclosures of protected health information.",
+    "text": "(ii) If the agency or official statement in paragraph (a)(2)(i) of this section is made orally, the covered entity must: (A) Document the statement, including the identity of the agency or official making the statement; (B) Temporarily suspend the individual's right to an accounting of disclosures subject to the statement; and (C) Limit the temporary suspension to no longer than 30 days from the date of the oral statement, unless a written statement pursuant to paragraph (a)(2)(i) of this section is submitted during that time.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.528"
+  },
+  {
+    "section": "164.528(3)",
+    "title": "Accounting of disclosures of protected health information.",
+    "text": "(3) An individual may request an accounting of disclosures for a period of time less than six years from the date of the request.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.528"
+  },
+  {
+    "section": "164.528(b)",
+    "title": "Accounting of disclosures of protected health information.",
+    "text": "(b) Implementation specifications: Content of the accounting. The covered entity must provide the individual with a written accounting that meets the following requirements.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.528"
+  },
+  {
+    "section": "164.528(1)",
+    "title": "Accounting of disclosures of protected health information.",
+    "text": "(1) Except as otherwise provided by paragraph (a) of this section, the accounting must include disclosures of protected health information that occurred during the six years (or such shorter time period at the request of the individual as provided in paragraph (a)(3) of this section) prior to the date of the request for an accounting, including disclosures to or by business associates of the covered entity.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.528"
+  },
+  {
+    "section": "164.528(2)",
+    "title": "Accounting of disclosures of protected health information.",
+    "text": "(2) Except as otherwise provided by paragraphs (b)(3) or (b)(4) of this section, the accounting must include for each disclosure:",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.528"
+  },
+  {
+    "section": "164.528(ii)",
+    "title": "Accounting of disclosures of protected health information.",
+    "text": "(ii) The name of the entity or person who received the protected health information and, if known, the address of such entity or person;",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.528"
+  },
+  {
+    "section": "164.528(iii)",
+    "title": "Accounting of disclosures of protected health information.",
+    "text": "(iii) A brief description of the protected health information disclosed; and",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.528"
+  },
+  {
+    "section": "164.528(iv)",
+    "title": "Accounting of disclosures of protected health information.",
+    "text": "(iv) A brief statement of the purpose of the disclosure that reasonably informs the individual of the basis for the disclosure or, in lieu of such statement, a copy of a written request for a disclosure under \u00a7 164.502(a)(2)(ii) or \u00a7 164.512, if any.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.528"
+  },
+  {
+    "section": "164.528(3)",
+    "title": "Accounting of disclosures of protected health information.",
+    "text": "(3) If, during the period covered by the accounting, the covered entity has made multiple disclosures of protected health information to the same person or entity for a single purpose under \u00a7 164.502(a)(2)(ii) or \u00a7 164.512, the accounting may, with respect to such multiple disclosures, provide:",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.528"
+  },
+  {
+    "section": "164.528(i)",
+    "title": "Accounting of disclosures of protected health information.",
+    "text": "(i) The information required by paragraph (b)(2) of this section for the first disclosure during the accounting period;",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.528"
+  },
+  {
+    "section": "164.528(ii)",
+    "title": "Accounting of disclosures of protected health information.",
+    "text": "(ii) The frequency, periodicity, or number of the disclosures made during the accounting period; and",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.528"
+  },
+  {
+    "section": "164.528(iii)",
+    "title": "Accounting of disclosures of protected health information.",
+    "text": "(iii) The date of the last such disclosure during the accounting period. (4)(i) If, during the period covered by the accounting, the covered entity has made disclosures of protected health information for a particular research purpose in accordance with \u00a7 164.512(i) for 50 or more individuals, the accounting may, with respect to such disclosures for which the protected health information about the individual may have been included, provide: (A) The name of the protocol or other research activity; (B) A description, in plain language, of the research protocol or other research activity, including the purpose of the research and the criteria for selecting particular records; (C) A brief description of the type of protected health information that was disclosed; (D) The date or period of time during which such disclosures occurred, or may have occurred, including the date of the last such disclosure during the accounting period; (E) The name, address, and telephone number of the entity that sponsored the research and of the researcher to whom the information was disclosed; and (F) A statement that the protected health information of the individual may or may not have been disclosed for a particular protocol or other research activity.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.528"
+  },
+  {
+    "section": "164.528(ii)",
+    "title": "Accounting of disclosures of protected health information.",
+    "text": "(ii) If the covered entity provides an accounting for research disclosures, in accordance with paragraph (b)(4) of this section, and if it is reasonably likely that the protected health information of the individual was disclosed for such research protocol or activity, the covered entity shall, at the request of the individual, assist in contacting the entity that sponsored the research and the researcher.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.528"
+  },
+  {
+    "section": "164.528(c)",
+    "title": "Accounting of disclosures of protected health information.",
+    "text": "(c) Implementation specifications: Provision of the accounting. (1) The covered entity must act on the individual's request for an accounting, no later than 60 days after receipt of such a request, as follows.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.528"
+  },
+  {
+    "section": "164.528(i)",
+    "title": "Accounting of disclosures of protected health information.",
+    "text": "(i) The covered entity must provide the individual with the accounting requested; or",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.528"
+  },
+  {
+    "section": "164.528(ii)",
+    "title": "Accounting of disclosures of protected health information.",
+    "text": "(ii) If the covered entity is unable to provide the accounting within the time required by paragraph (c)(1) of this section, the covered entity may extend the time to provide the accounting by no more than 30 days, provided that: (A) The covered entity, within the time limit set by paragraph (c)(1) of this section, provides the individual with a written statement of the reasons for the delay and the date by which the covered entity will provide the accounting; and (B) The covered entity may have only one such extension of time for action on a request for an accounting.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.528"
+  },
+  {
+    "section": "164.528(2)",
+    "title": "Accounting of disclosures of protected health information.",
+    "text": "(2) The covered entity must provide the first accounting to an individual in any 12 month period without charge. The covered entity may impose a reasonable, cost-based fee for each subsequent request for an accounting by the same individual within the 12 month period, provided that the covered entity informs the individual in advance of the fee and provides the individual with an opportunity to withdraw or modify the request for a subsequent accounting in order to avoid or reduce the fee.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.528"
+  },
+  {
+    "section": "164.528(d)",
+    "title": "Accounting of disclosures of protected health information.",
+    "text": "(d) Implementation specification: Documentation. A covered entity must document the following and retain the documentation as required by \u00a7 164.530(j):",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.528"
+  },
+  {
+    "section": "164.528(1)",
+    "title": "Accounting of disclosures of protected health information.",
+    "text": "(1) The information required to be included in an accounting under paragraph (b) of this section for disclosures of protected health information that are subject to an accounting under paragraph (a) of this section;",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.528"
+  },
+  {
+    "section": "164.528(2)",
+    "title": "Accounting of disclosures of protected health information.",
+    "text": "(2) The written accounting that is provided to the individual under this section; and",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.528"
+  },
+  {
+    "section": "164.528(3)",
+    "title": "Accounting of disclosures of protected health information.",
+    "text": "(3) The titles of the persons or offices responsible for receiving and processing requests for an accounting by individuals.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.528"
+  },
+  {
+    "section": "164.530(ii)",
+    "title": "Administrative requirements.",
+    "text": "(ii) A covered entity must designate a contact person or office who is responsible for receiving complaints under this section and who is able to provide further information about matters covered by the notice required by \u00a7 164.520.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.530"
+  },
+  {
+    "section": "164.530(2)",
+    "title": "Administrative requirements.",
+    "text": "(2) Implementation specification: Personnel designations. A covered entity must document the personnel designations in paragraph (a)(1) of this section as required by paragraph (j) of this section. (b)(1) Standard: Training. A covered entity must train all members of its workforce on the policies and procedures with respect to protected health information required by this subpart and subpart D of this part, as necessary and appropriate for the members of the workforce to carry out their functions within the covered entity.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.530"
+  },
+  {
+    "section": "164.530(2)",
+    "title": "Administrative requirements.",
+    "text": "(2) Implementation specifications: Training. (i) A covered entity must provide training that meets the requirements of paragraph (b)(1) of this section, as follows: (A) To each member of the covered entity's workforce by no later than the compliance date for the covered entity; (B) Thereafter, to each new member of the workforce within a reasonable period of time after the person joins the covered entity's workforce; and (C) To each member of the covered entity's workforce whose functions are affected by a material change in the policies or procedures required by this subpart or subpart D of this part, within a reasonable period of time after the material change becomes effective in accordance with paragraph (i) of this section.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.530"
+  },
+  {
+    "section": "164.530(ii)",
+    "title": "Administrative requirements.",
+    "text": "(ii) A covered entity must document that the training as described in paragraph (b)(2)(i) of this section has been provided, as required by paragraph (j) of this section. (c)(1) Standard: Safeguards. A covered entity must have in place appropriate administrative, technical, and physical safeguards to protect the privacy of protected health information. (2)(i) Implementation specification: Safeguards. A covered entity must reasonably safeguard protected health information from any intentional or unintentional use or disclosure that is in violation of the standards, implementation specifications or other requirements of this subpart.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.530"
+  },
+  {
+    "section": "164.530(ii)",
+    "title": "Administrative requirements.",
+    "text": "(ii) A covered entity must reasonably safeguard protected health information to limit incidental uses or disclosures made pursuant to an otherwise permitted or required use or disclosure. (d)(1) Standard: Complaints to the covered entity. A covered entity must provide a process for individuals to make complaints concerning the covered entity's policies and procedures required by this subpart and subpart D of this part or its compliance with such policies and procedures or the requirements of this subpart or subpart D of this part.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.530"
+  },
+  {
+    "section": "164.530(2)",
+    "title": "Administrative requirements.",
+    "text": "(2) Implementation specification: Documentation of complaints. As required by paragraph (j) of this section, a covered entity must document all complaints received, and their disposition, if any. (e)(1) Standard: Sanctions. A covered entity must have and apply appropriate sanctions against members of its workforce who fail to comply with the privacy policies and procedures of the covered entity or the requirements of this subpart or subpart D of this part. This standard does not apply to a member of the covered entity's workforce with respect to actions that are covered by and that meet the conditions of \u00a7 164.502(j) or paragraph (g)(2) of this section.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.530"
+  },
+  {
+    "section": "164.530(2)",
+    "title": "Administrative requirements.",
+    "text": "(2) Implementation specification: Documentation. As required by paragraph (j) of this section, a covered entity must document the sanctions that are applied, if any.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.530"
+  },
+  {
+    "section": "164.530(f)",
+    "title": "Administrative requirements.",
+    "text": "(f) Standard: Mitigation. A covered entity must mitigate, to the extent practicable, any harmful effect that is known to the covered entity of a use or disclosure of protected health information in violation of its policies and procedures or the requirements of this subpart by the covered entity or its business associate.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.530"
+  },
+  {
+    "section": "164.530(g)",
+    "title": "Administrative requirements.",
+    "text": "(g) Standard: Refraining from intimidating or retaliatory acts. A covered entity\u2014",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.530"
+  },
+  {
+    "section": "164.530(1)",
+    "title": "Administrative requirements.",
+    "text": "(1) May not intimidate, threaten, coerce, discriminate against, or take other retaliatory action against any individual for the exercise by the individual of any right established, or for participation in any process provided for, by this subpart or subpart D of this part, including the filing of a complaint under this section; and",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.530"
+  },
+  {
+    "section": "164.530(2)",
+    "title": "Administrative requirements.",
+    "text": "(2) Must refrain from intimidation and retaliation as provided in \u00a7 160.316 of this subchapter.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.530"
+  },
+  {
+    "section": "164.530(h)",
+    "title": "Administrative requirements.",
+    "text": "(h) Standard: Waiver of rights. A covered entity may not require individuals to waive their rights under \u00a7 160.306 of this subchapter, this subpart, or subpart D of this part, as a condition of the provision of treatment, payment, enrollment in a health plan, or eligibility for benefits. (i)(1) Standard: Policies and procedures. A covered entity must implement policies and procedures with respect to protected health information that are designed to comply with the standards, implementation specifications, or other requirements of this subpart and subpart D of this part. The policies and procedures must be reasonably designed, taking into account the size and the type of activities that relate to protected health information undertaken by a covered entity, to ensure such compliance. This standard is not to be construed to permit or excuse an action that violates any other standard, implementation specification, or other requirement of this subpart.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.530"
+  },
+  {
+    "section": "164.530(2)",
+    "title": "Administrative requirements.",
+    "text": "(2) Standard: Changes to policies and procedures. (i) A covered entity must change its policies and procedures as necessary and appropriate to comply with changes in the law, including the standards, requirements, and implementation specifications of this subpart or subpart D of this part.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.530"
+  },
+  {
+    "section": "164.530(ii)",
+    "title": "Administrative requirements.",
+    "text": "(ii) When a covered entity changes a privacy practice that is stated in the notice described in \u00a7 164.520, and makes corresponding changes to its policies and procedures, it may make the changes effective for protected health information that it created or received prior to the effective date of the notice revision, if the covered entity has, in accordance with \u00a7 164.520(b)(1)(v)(C), included in the notice a statement reserving its right to make such a change in its privacy practices; or",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.530"
+  },
+  {
+    "section": "164.530(iii)",
+    "title": "Administrative requirements.",
+    "text": "(iii) A covered entity may make any other changes to policies and procedures at any time, provided that the changes are documented and implemented in accordance with paragraph (i)(5) of this section.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.530"
+  },
+  {
+    "section": "164.530(3)",
+    "title": "Administrative requirements.",
+    "text": "(3) Implementation specification: Changes in law. Whenever there is a change in law that necessitates a change to the covered entity's policies or procedures, the covered entity must promptly document and implement the revised policy or procedure. If the change in law materially affects the content of the notice required by \u00a7 164.520, the covered entity must promptly make the appropriate revisions to the notice in accordance with \u00a7 164.520(b)(3). Nothing in this paragraph may be used by a covered entity to excuse a failure to comply with the law.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.530"
+  },
+  {
+    "section": "164.530(4)",
+    "title": "Administrative requirements.",
+    "text": "(4) Implementation specifications: Changes to privacy practices stated in the notice. (i) To implement a change as provided by paragraph (i)(2)(ii) of this section, a covered entity must: (A) Ensure that the policy or procedure, as revised to reflect a change in the covered entity's privacy practice as stated in its notice, complies with the standards, requirements, and implementation specifications of this subpart; (B) Document the policy or procedure, as revised, as required by paragraph (j) of this section; and (C) Revise the notice as required by \u00a7 164.520(b)(3) to state the changed practice and make the revised notice available as required by \u00a7 164.520(c). The covered entity may not implement a change to a policy or procedure prior to the effective date of the revised notice.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.530"
+  },
+  {
+    "section": "164.530(ii)",
+    "title": "Administrative requirements.",
+    "text": "(ii) If a covered entity has not reserved its right under \u00a7 164.520(b)(1)(v)(C) to change a privacy practice that is stated in the notice, the covered entity is bound by the privacy practices as stated in the notice with respect to protected health information created or received while such notice is in effect. A covered entity may change a privacy practice that is stated in the notice, and the related policies and procedures, without having reserved the right to do so, provided that: (A) Such change meets the implementation specifications in paragraphs (i)(4)(i)(A)-(C) of this section; and (B) Such change is effective only with respect to protected health information created or received after the effective date of the notice.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.530"
+  },
+  {
+    "section": "164.530(5)",
+    "title": "Administrative requirements.",
+    "text": "(5) Implementation specification: Changes to other policies or procedures. A covered entity may change, at any time, a policy or procedure that does not materially affect the content of the notice required by \u00a7 164.520, provided that:",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.530"
+  },
+  {
+    "section": "164.530(i)",
+    "title": "Administrative requirements.",
+    "text": "(i) The policy or procedure, as revised, complies with the standards, requirements, and implementation specifications of this subpart; and",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.530"
+  },
+  {
+    "section": "164.530(ii)",
+    "title": "Administrative requirements.",
+    "text": "(ii) Prior to the effective date of the change, the policy or procedure, as revised, is documented as required by paragraph (j) of this section. (j)(1) Standard: Documentation. A covered entity must:",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.530"
+  },
+  {
+    "section": "164.530(i)",
+    "title": "Administrative requirements.",
+    "text": "(i) Maintain the policies and procedures provided for in paragraph (i) of this section in written or electronic form;",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.530"
+  },
+  {
+    "section": "164.530(ii)",
+    "title": "Administrative requirements.",
+    "text": "(ii) If a communication is required by this subpart to be in writing, maintain such writing, or an electronic copy, as documentation; and",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.530"
+  },
+  {
+    "section": "164.530(iii)",
+    "title": "Administrative requirements.",
+    "text": "(iii) If an action, activity, or designation is required by this subpart to be documented, maintain a written or electronic record of such action, activity, or designation.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.530"
+  },
+  {
+    "section": "164.530(iv)",
+    "title": "Administrative requirements.",
+    "text": "(iv) Maintain documentation sufficient to meet its burden of proof under \u00a7 164.414(b).",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.530"
+  },
+  {
+    "section": "164.530(2)",
+    "title": "Administrative requirements.",
+    "text": "(2) Implementation specification: Retention period. A covered entity must retain the documentation required by paragraph (j)(1) of this section for six years from the date of its creation or the date when it last was in effect, whichever is later.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.530"
+  },
+  {
+    "section": "164.530(k)",
+    "title": "Administrative requirements.",
+    "text": "(k) Standard: Group health plans. (1) A group health plan is not subject to the standards or implementation specifications in paragraphs (a) through (f) and (i) of this section, to the extent that:",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.530"
+  },
+  {
+    "section": "164.530(i)",
+    "title": "Administrative requirements.",
+    "text": "(i) The group health plan provides health benefits solely through an insurance contract with a health insurance issuer or an HMO; and",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.530"
+  },
+  {
+    "section": "164.530(ii)",
+    "title": "Administrative requirements.",
+    "text": "(ii) The group health plan does not create or receive protected health information, except for: (A) Summary health information as defined in \u00a7 164.504(a); or (B) Information on whether the individual is participating in the group health plan, or is enrolled in or has disenrolled from a health insurance issuer or HMO offered by the plan.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.530"
+  },
+  {
+    "section": "164.530(2)",
+    "title": "Administrative requirements.",
+    "text": "(2) A group health plan described in paragraph (k)(1) of this section is subject to the standard and implementation specification in paragraph (j) of this section only with respect to plan documents amended in accordance with \u00a7 164.504(f).",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.530"
+  },
+  {
+    "section": "164.532(a)",
+    "title": "Transition provisions.",
+    "text": "(a) Standard: Effect of prior authorizations. Notwithstanding \u00a7\u00a7 164.508 and 164.512(i), a covered entity may use or disclose protected health information, consistent with paragraphs (b) and (c) of this section, pursuant to an authorization or other express legal permission obtained from an individual permitting the use or disclosure of protected health information, informed consent of the individual to participate in research, a waiver of informed consent by an IRB, or a waiver of authorization in accordance with \u00a7 164.512(i)(1)(i).",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.532"
+  },
+  {
+    "section": "164.532(b)",
+    "title": "Transition provisions.",
+    "text": "(b) Implementation specification: Effect of prior authorization for purposes other than research. Notwithstanding any provisions in \u00a7 164.508, a covered entity may use or disclose protected health information that it created or received prior to the applicable compliance date of this subpart pursuant to an authorization or other express legal permission obtained from an individual prior to the applicable compliance date of this subpart, provided that the authorization or other express legal permission specifically permits such use or disclosure and there is no agreed-to restriction in accordance with \u00a7 164.522(a).",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.532"
+  },
+  {
+    "section": "164.532(c)",
+    "title": "Transition provisions.",
+    "text": "(c) Implementation specification: Effect of prior permission for research. Notwithstanding any provisions in \u00a7\u00a7 164.508 and 164.512(i), a covered entity may, to the extent allowed by one of the following permissions, use or disclose, for research, protected health information that it created or received either before or after the applicable compliance date of this subpart, provided that there is no agreed-to restriction in accordance with \u00a7 164.522(a), and the covered entity has obtained, prior to the applicable compliance date, either:",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.532"
+  },
+  {
+    "section": "164.532(1)",
+    "title": "Transition provisions.",
+    "text": "(1) An authorization or other express legal permission from an individual to use or disclose protected health information for the research;",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.532"
+  },
+  {
+    "section": "164.532(2)",
+    "title": "Transition provisions.",
+    "text": "(2) The informed consent of the individual to participate in the research;",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.532"
+  },
+  {
+    "section": "164.532(3)",
+    "title": "Transition provisions.",
+    "text": "(3) A waiver, by an IRB, of informed consent for the research, in accordance with 7 CFR 1c.116(d), 10 CFR 745.116(d), 14 CFR 1230.116(d), 15 CFR 27.116(d), 16 CFR 1028.116(d), 21 CFR 50.24, 22 CFR 225.116(d), 24 CFR 60.116(d), 28 CFR 46.116(d), 32 CFR 219.116(d), 34 CFR 97.116(d), 38 CFR 16.116(d), 40 CFR 26.116(d), 45 CFR 46.116(d), 45 CFR 690.116(d), or 49 CFR 11.116(d), provided that a covered entity must obtain authorization in accordance with \u00a7 164.508 if, after the compliance date, informed consent is sought from an individual participating in the research; or",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.532"
+  },
+  {
+    "section": "164.532(4)",
+    "title": "Transition provisions.",
+    "text": "(4) A waiver of authorization in accordance with \u00a7 164.512(i)(1)(i).",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.532"
+  },
+  {
+    "section": "164.532(d)",
+    "title": "Transition provisions.",
+    "text": "(d) Standard: Effect of prior contracts or other arrangements with business associates. Notwithstanding any other provisions of this part, a covered entity, or business associate with respect to a subcontractor, may disclose protected health information to a business associate and may allow a business associate to create, receive, maintain, or transmit protected health information on its behalf pursuant to a written contract or other written arrangement with such business associate that does not comply with \u00a7\u00a7 164.308(b), 164.314(a), 164.502(e), and 164.504(e), only in accordance with paragraph (e) of this section.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.532"
+  },
+  {
+    "section": "164.532(e)",
+    "title": "Transition provisions.",
+    "text": "(e) Implementation specification: Deemed compliance \u2014(1) Qualification. Notwithstanding other sections of this part, a covered entity, or business associate with respect to a subcontractor, is deemed to be in compliance with the documentation and contract requirements of \u00a7\u00a7 164.308(b), 164.314(a), 164.502(e), and 164.504(e), with respect to a particular business associate relationship, for the time period set forth in paragraph (e)(2) of this section, if:",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.532"
+  },
+  {
+    "section": "164.532(i)",
+    "title": "Transition provisions.",
+    "text": "(i) Prior to January 25, 2013, such covered entity, or business associate with respect to a subcontractor, has entered into and is operating pursuant to a written contract or other written arrangement with the business associate that complies with the applicable provisions of \u00a7 164.314(a) or \u00a7 164.504(e) that were in effect on such date; and",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.532"
+  },
+  {
+    "section": "164.532(ii)",
+    "title": "Transition provisions.",
+    "text": "(ii) The contract or other arrangement is not renewed or modified from March 26, 2013, until September 23, 2013.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.532"
+  },
+  {
+    "section": "164.532(2)",
+    "title": "Transition provisions.",
+    "text": "(2) Limited deemed compliance period. A prior contract or other arrangement that meets the qualification requirements in paragraph (e) of this section shall be deemed compliant until the earlier of:",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.532"
+  },
+  {
+    "section": "164.532(i)",
+    "title": "Transition provisions.",
+    "text": "(i) The date such contract or other arrangement is renewed or modified on or after September 23, 2013; or",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.532"
+  },
+  {
+    "section": "164.532(3)",
+    "title": "Transition provisions.",
+    "text": "(3) Covered entity responsibilities. Nothing in this section shall alter the requirements of a covered entity to comply with part 160, subpart C of this subchapter and \u00a7\u00a7 164.524, 164.526, 164.528, and 164.530(f) with respect to protected health information held by a business associate.",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.532"
+  },
+  {
+    "section": "164.532(f)",
+    "title": "Transition provisions.",
+    "text": "(f) Effect of prior data use agreements. If, prior to January 25, 2013, a covered entity has entered into and is operating pursuant to a data use agreement with a recipient of a limited data set that complies with \u00a7 164.514(e), notwithstanding \u00a7 164.502(a)(5)(ii), the covered entity may continue to disclose a limited data set pursuant to such agreement in exchange for remuneration from or on behalf of the recipient of the protected health information until the earlier of:",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.532"
+  },
+  {
+    "section": "164.532(1)",
+    "title": "Transition provisions.",
+    "text": "(1) The date such agreement is renewed or modified on or after September 23, 2013; or",
+    "classification": "PROCEDURAL",
+    "parent_section": "164.532"
+  }
+]

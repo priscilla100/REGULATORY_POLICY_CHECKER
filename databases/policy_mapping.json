@@ -1,0 +1,860 @@
+[
+  {
+    "policy_id": "HIPAA-0",
+    "section": "\u00a7160.101",
+    "title": "Statutory basis and purpose.",
+    "type": "GENERAL"
+  },
+  {
+    "policy_id": "HIPAA-1",
+    "section": "\u00a7160.102",
+    "title": "Applicability.",
+    "type": "REQUIREMENT"
+  },
+  {
+    "policy_id": "HIPAA-2",
+    "section": "\u00a7160.103",
+    "title": "Definitions.",
+    "type": "PROHIBITION"
+  },
+  {
+    "policy_id": "HIPAA-3",
+    "section": "\u00a7160.104",
+    "title": "Modifications.",
+    "type": "GENERAL"
+  },
+  {
+    "policy_id": "HIPAA-4",
+    "section": "\u00a7160.105",
+    "title": "Compliance dates for implementation of new or modified standards and implementation specifications.",
+    "type": "REQUIREMENT"
+  },
+  {
+    "policy_id": "HIPAA-5",
+    "section": "\u00a7160.201",
+    "title": "Statutory basis.",
+    "type": "GENERAL"
+  },
+  {
+    "policy_id": "HIPAA-6",
+    "section": "\u00a7160.202",
+    "title": "Definitions.",
+    "type": "GENERAL"
+  },
+  {
+    "policy_id": "HIPAA-7",
+    "section": "\u00a7160.203",
+    "title": "General rule and exceptions.",
+    "type": "GENERAL"
+  },
+  {
+    "policy_id": "HIPAA-8",
+    "section": "\u00a7160.204",
+    "title": "Process for requesting exception determinations.",
+    "type": "REQUIREMENT"
+  },
+  {
+    "policy_id": "HIPAA-9",
+    "section": "\u00a7160.205",
+    "title": "Duration of effectiveness of exception determinations.",
+    "type": "GENERAL"
+  },
+  {
+    "policy_id": "HIPAA-10",
+    "section": "\u00a7160.300",
+    "title": "Applicability.",
+    "type": "GENERAL"
+  },
+  {
+    "policy_id": "HIPAA-11",
+    "section": "\u00a7160.304",
+    "title": "Principles for achieving compliance.",
+    "type": "GENERAL"
+  },
+  {
+    "policy_id": "HIPAA-12",
+    "section": "\u00a7160.306",
+    "title": "Complaints to the Secretary.",
+    "type": "REQUIREMENT"
+  },
+  {
+    "policy_id": "HIPAA-13",
+    "section": "\u00a7160.308",
+    "title": "Compliance reviews.",
+    "type": "GENERAL"
+  },
+  {
+    "policy_id": "HIPAA-14",
+    "section": "\u00a7160.310",
+    "title": "Responsibilities of covered entities and business associates.",
+    "type": "REQUIREMENT"
+  },
+  {
+    "policy_id": "HIPAA-15",
+    "section": "\u00a7160.312",
+    "title": "Secretarial action regarding complaints and compliance reviews.",
+    "type": "REQUIREMENT"
+  },
+  {
+    "policy_id": "HIPAA-16",
+    "section": "\u00a7160.314",
+    "title": "Investigational subpoenas and inquiries.",
+    "type": "REQUIREMENT"
+  },
+  {
+    "policy_id": "HIPAA-17",
+    "section": "\u00a7160.316",
+    "title": "Refraining from intimidation or retaliation.",
+    "type": "PROHIBITION"
+  },
+  {
+    "policy_id": "HIPAA-18",
+    "section": "\u00a7160.400",
+    "title": "Applicability.",
+    "type": "GENERAL"
+  },
+  {
+    "policy_id": "HIPAA-19",
+    "section": "\u00a7160.401",
+    "title": "Definitions.",
+    "type": "GENERAL"
+  },
+  {
+    "policy_id": "HIPAA-20",
+    "section": "\u00a7160.402",
+    "title": "Basis for a civil money penalty.",
+    "type": "GENERAL"
+  },
+  {
+    "policy_id": "HIPAA-21",
+    "section": "\u00a7160.404",
+    "title": "Amount of a civil money penalty.",
+    "type": "PROHIBITION"
+  },
+  {
+    "policy_id": "HIPAA-22",
+    "section": "\u00a7160.406",
+    "title": "Violations of an identical requirement or prohibition.",
+    "type": "GENERAL"
+  },
+  {
+    "policy_id": "HIPAA-23",
+    "section": "\u00a7160.408",
+    "title": "Factors considered in determining the amount of a civil money penalty.",
+    "type": "GENERAL"
+  },
+  {
+    "policy_id": "HIPAA-24",
+    "section": "\u00a7160.410",
+    "title": "Affirmative defenses.",
+    "type": "PROHIBITION"
+  },
+  {
+    "policy_id": "HIPAA-25",
+    "section": "\u00a7160.412",
+    "title": "Waiver.",
+    "type": "GENERAL"
+  },
+  {
+    "policy_id": "HIPAA-26",
+    "section": "\u00a7160.414",
+    "title": "Limitations.",
+    "type": "GENERAL"
+  },
+  {
+    "policy_id": "HIPAA-27",
+    "section": "\u00a7160.416",
+    "title": "Authority to settle.",
+    "type": "GENERAL"
+  },
+  {
+    "policy_id": "HIPAA-28",
+    "section": "\u00a7160.418",
+    "title": "Penalty not exclusive.",
+    "type": "GENERAL"
+  },
+  {
+    "policy_id": "HIPAA-29",
+    "section": "\u00a7160.420",
+    "title": "Notice of proposed determination.",
+    "type": "REQUIREMENT"
+  },
+  {
+    "policy_id": "HIPAA-30",
+    "section": "\u00a7160.422",
+    "title": "Failure to request a hearing.",
+    "type": "GENERAL"
+  },
+  {
+    "policy_id": "HIPAA-31",
+    "section": "\u00a7160.424",
+    "title": "Collection of penalty.",
+    "type": "PROHIBITION"
+  },
+  {
+    "policy_id": "HIPAA-32",
+    "section": "\u00a7160.426",
+    "title": "Notification of the public and other agencies.",
+    "type": "GENERAL"
+  },
+  {
+    "policy_id": "HIPAA-33",
+    "section": "\u00a7160.500",
+    "title": "Applicability.",
+    "type": "GENERAL"
+  },
+  {
+    "policy_id": "HIPAA-34",
+    "section": "\u00a7160.502",
+    "title": "Definitions.",
+    "type": "GENERAL"
+  },
+  {
+    "policy_id": "HIPAA-35",
+    "section": "\u00a7160.504",
+    "title": "Hearing before an ALJ.",
+    "type": "REQUIREMENT"
+  },
+  {
+    "policy_id": "HIPAA-36",
+    "section": "\u00a7160.506",
+    "title": "Rights of the parties.",
+    "type": "REQUIREMENT"
+  },
+  {
+    "policy_id": "HIPAA-37",
+    "section": "\u00a7160.508",
+    "title": "Authority of the ALJ.",
+    "type": "PROHIBITION"
+  },
+  {
+    "policy_id": "HIPAA-38",
+    "section": "\u00a7160.510",
+    "title": "Ex parte contacts.",
+    "type": "GENERAL"
+  },
+  {
+    "policy_id": "HIPAA-39",
+    "section": "\u00a7160.512",
+    "title": "Prehearing conferences.",
+    "type": "PERMISSION"
+  },
+  {
+    "policy_id": "HIPAA-40",
+    "section": "\u00a7160.514",
+    "title": "Authority to settle.",
+    "type": "GENERAL"
+  },
+  {
+    "policy_id": "HIPAA-41",
+    "section": "\u00a7160.516",
+    "title": "Discovery.",
+    "type": "PROHIBITION"
+  },
+  {
+    "policy_id": "HIPAA-42",
+    "section": "\u00a7160.518",
+    "title": "Exchange of witness lists, witness statements, and exhibits.",
+    "type": "REQUIREMENT"
+  },
+  {
+    "policy_id": "HIPAA-43",
+    "section": "\u00a7160.520",
+    "title": "Subpoenas for attendance at hearing.",
+    "type": "REQUIREMENT"
+  },
+  {
+    "policy_id": "HIPAA-44",
+    "section": "\u00a7160.522",
+    "title": "Fees.",
+    "type": "REQUIREMENT"
+  },
+  {
+    "policy_id": "HIPAA-45",
+    "section": "\u00a7160.524",
+    "title": "Form, filing, and service of papers.",
+    "type": "REQUIREMENT"
+  },
+  {
+    "policy_id": "HIPAA-46",
+    "section": "\u00a7160.526",
+    "title": "Computation of time.",
+    "type": "REQUIREMENT"
+  },
+  {
+    "policy_id": "HIPAA-47",
+    "section": "\u00a7160.528",
+    "title": "Motions.",
+    "type": "PROHIBITION"
+  },
+  {
+    "policy_id": "HIPAA-48",
+    "section": "\u00a7160.530",
+    "title": "Sanctions.",
+    "type": "REQUIREMENT"
+  },
+  {
+    "policy_id": "HIPAA-49",
+    "section": "\u00a7160.532",
+    "title": "Collateral estoppel.",
+    "type": "GENERAL"
+  },
+  {
+    "policy_id": "HIPAA-50",
+    "section": "\u00a7160.534",
+    "title": "The hearing.",
+    "type": "PROHIBITION"
+  },
+  {
+    "policy_id": "HIPAA-51",
+    "section": "\u00a7160.536",
+    "title": "Statistical sampling.",
+    "type": "CONDITIONAL"
+  },
+  {
+    "policy_id": "HIPAA-52",
+    "section": "\u00a7160.538",
+    "title": "Witnesses.",
+    "type": "PROHIBITION"
+  },
+  {
+    "policy_id": "HIPAA-53",
+    "section": "\u00a7160.540",
+    "title": "Evidence.",
+    "type": "REQUIREMENT"
+  },
+  {
+    "policy_id": "HIPAA-54",
+    "section": "\u00a7160.542",
+    "title": "The record.",
+    "type": "REQUIREMENT"
+  },
+  {
+    "policy_id": "HIPAA-55",
+    "section": "\u00a7160.544",
+    "title": "Post hearing briefs.",
+    "type": "PROHIBITION"
+  },
+  {
+    "policy_id": "HIPAA-56",
+    "section": "\u00a7160.546",
+    "title": "ALJ's decision.",
+    "type": "PROHIBITION"
+  },
+  {
+    "policy_id": "HIPAA-57",
+    "section": "\u00a7160.548",
+    "title": "Appeal of the ALJ's decision.",
+    "type": "PROHIBITION"
+  },
+  {
+    "policy_id": "HIPAA-58",
+    "section": "\u00a7160.550",
+    "title": "Stay of the Secretary's decision.",
+    "type": "PROHIBITION"
+  },
+  {
+    "policy_id": "HIPAA-59",
+    "section": "\u00a7160.552",
+    "title": "Harmless error.",
+    "type": "REQUIREMENT"
+  },
+  {
+    "policy_id": "HIPAA-60",
+    "section": "\u00a7162.100",
+    "title": "Applicability.",
+    "type": "REQUIREMENT"
+  },
+  {
+    "policy_id": "HIPAA-61",
+    "section": "\u00a7162.103",
+    "title": "Definitions.",
+    "type": "REQUIREMENT"
+  },
+  {
+    "policy_id": "HIPAA-62",
+    "section": "\u00a7162.404",
+    "title": "Compliance dates of the implementation of the standard unique health identifier for health care providers.",
+    "type": "REQUIREMENT"
+  },
+  {
+    "policy_id": "HIPAA-63",
+    "section": "\u00a7162.406",
+    "title": "Standard unique health identifier for health care providers.",
+    "type": "REQUIREMENT"
+  },
+  {
+    "policy_id": "HIPAA-64",
+    "section": "\u00a7162.408",
+    "title": "National Provider System.",
+    "type": "REQUIREMENT"
+  },
+  {
+    "policy_id": "HIPAA-65",
+    "section": "\u00a7162.410",
+    "title": "Implementation specifications: Health care providers.",
+    "type": "REQUIREMENT"
+  },
+  {
+    "policy_id": "HIPAA-66",
+    "section": "\u00a7162.412",
+    "title": "Implementation specifications: Health plans.",
+    "type": "PROHIBITION"
+  },
+  {
+    "policy_id": "HIPAA-67",
+    "section": "\u00a7162.414",
+    "title": "Implementation specifications: Health care clearinghouses.",
+    "type": "REQUIREMENT"
+  },
+  {
+    "policy_id": "HIPAA-68",
+    "section": "\u00a7162.600",
+    "title": "Compliance dates of the implementation of the standard unique employer identifier.",
+    "type": "REQUIREMENT"
+  },
+  {
+    "policy_id": "HIPAA-69",
+    "section": "\u00a7162.605",
+    "title": "Standard unique employer identifier.",
+    "type": "GENERAL"
+  },
+  {
+    "policy_id": "HIPAA-70",
+    "section": "\u00a7162.610",
+    "title": "Implementation specifications for covered entities.",
+    "type": "REQUIREMENT"
+  },
+  {
+    "policy_id": "HIPAA-71",
+    "section": "\u00a7162.910",
+    "title": "Maintenance of standards and adoption of modifications and new standards.",
+    "type": "GENERAL"
+  },
+  {
+    "policy_id": "HIPAA-72",
+    "section": "\u00a7162.915",
+    "title": "Trading partner agreements.",
+    "type": "PROHIBITION"
+  },
+  {
+    "policy_id": "HIPAA-73",
+    "section": "\u00a7162.920",
+    "title": "Availability of implementation specifications and operating rules.",
+    "type": "REQUIREMENT"
+  },
+  {
+    "policy_id": "HIPAA-74",
+    "section": "\u00a7162.923",
+    "title": "Requirements for covered entities.",
+    "type": "PERMISSION"
+  },
+  {
+    "policy_id": "HIPAA-75",
+    "section": "\u00a7162.925",
+    "title": "Additional requirements for health plans.",
+    "type": "PROHIBITION"
+  },
+  {
+    "policy_id": "HIPAA-76",
+    "section": "\u00a7162.930",
+    "title": "Additional rules for health care clearinghouses.",
+    "type": "GENERAL"
+  },
+  {
+    "policy_id": "HIPAA-77",
+    "section": "\u00a7162.940",
+    "title": "Exceptions from standards to permit testing of proposed modifications.",
+    "type": "REQUIREMENT"
+  },
+  {
+    "policy_id": "HIPAA-78",
+    "section": "\u00a7162.1000",
+    "title": "General requirements.",
+    "type": "REQUIREMENT"
+  },
+  {
+    "policy_id": "HIPAA-79",
+    "section": "\u00a7162.1002",
+    "title": "Medical data code sets.",
+    "type": "GENERAL"
+  },
+  {
+    "policy_id": "HIPAA-80",
+    "section": "\u00a7162.1011",
+    "title": "Valid code sets.",
+    "type": "GENERAL"
+  },
+  {
+    "policy_id": "HIPAA-81",
+    "section": "\u00a7162.1101",
+    "title": "Health care claims or equivalent encounter information transaction.",
+    "type": "GENERAL"
+  },
+  {
+    "policy_id": "HIPAA-82",
+    "section": "\u00a7162.1102",
+    "title": "Standards for health care claims or equivalent encounter information transaction.",
+    "type": "REQUIREMENT"
+  },
+  {
+    "policy_id": "HIPAA-83",
+    "section": "\u00a7162.1201",
+    "title": "Eligibility for a health plan transaction.",
+    "type": "GENERAL"
+  },
+  {
+    "policy_id": "HIPAA-84",
+    "section": "\u00a7162.1202",
+    "title": "Standards for eligibility for a health plan transaction.",
+    "type": "GENERAL"
+  },
+  {
+    "policy_id": "HIPAA-85",
+    "section": "\u00a7162.1203",
+    "title": "Operating rules for eligibility for a health plan transaction.",
+    "type": "GENERAL"
+  },
+  {
+    "policy_id": "HIPAA-86",
+    "section": "\u00a7162.1301",
+    "title": "Referral certification and authorization transaction.",
+    "type": "GENERAL"
+  },
+  {
+    "policy_id": "HIPAA-87",
+    "section": "\u00a7162.1302",
+    "title": "Standards for referral certification and authorization transaction.",
+    "type": "REQUIREMENT"
+  },
+  {
+    "policy_id": "HIPAA-88",
+    "section": "\u00a7162.1401",
+    "title": "Health care claim status transaction.",
+    "type": "GENERAL"
+  },
+  {
+    "policy_id": "HIPAA-89",
+    "section": "\u00a7162.1402",
+    "title": "Standards for health care claim status transaction.",
+    "type": "GENERAL"
+  },
+  {
+    "policy_id": "HIPAA-90",
+    "section": "\u00a7162.1403",
+    "title": "Operating rules for health care claim status transaction.",
+    "type": "GENERAL"
+  },
+  {
+    "policy_id": "HIPAA-91",
+    "section": "\u00a7162.1501",
+    "title": "Enrollment and disenrollment in a health plan transaction.",
+    "type": "GENERAL"
+  },
+  {
+    "policy_id": "HIPAA-92",
+    "section": "\u00a7162.1502",
+    "title": "Standards for enrollment and disenrollment in a health plan transaction.",
+    "type": "GENERAL"
+  },
+  {
+    "policy_id": "HIPAA-93",
+    "section": "\u00a7162.1601",
+    "title": "Health care electronic funds transfers (EFT) and remittance advice transaction.",
+    "type": "GENERAL"
+  },
+  {
+    "policy_id": "HIPAA-94",
+    "section": "\u00a7162.1602",
+    "title": "Standards for health care electronic funds transfers (EFT) and remittance advice transaction.",
+    "type": "GENERAL"
+  },
+  {
+    "policy_id": "HIPAA-95",
+    "section": "\u00a7162.1603",
+    "title": "Operating rules for health care electronic funds transfers (EFT) and remittance advice transaction.",
+    "type": "GENERAL"
+  },
+  {
+    "policy_id": "HIPAA-96",
+    "section": "\u00a7162.1701",
+    "title": "Health plan premium payments transaction.",
+    "type": "GENERAL"
+  },
+  {
+    "policy_id": "HIPAA-97",
+    "section": "\u00a7162.1702",
+    "title": "Standards for health plan premium payments transaction.",
+    "type": "GENERAL"
+  },
+  {
+    "policy_id": "HIPAA-98",
+    "section": "\u00a7162.1801",
+    "title": "Coordination of benefits transaction.",
+    "type": "GENERAL"
+  },
+  {
+    "policy_id": "HIPAA-99",
+    "section": "\u00a7162.1802",
+    "title": "Standards for coordination of benefits information transaction.",
+    "type": "REQUIREMENT"
+  },
+  {
+    "policy_id": "HIPAA-100",
+    "section": "\u00a7162.1901",
+    "title": "Medicaid pharmacy subrogation transaction.",
+    "type": "GENERAL"
+  },
+  {
+    "policy_id": "HIPAA-101",
+    "section": "\u00a7162.1902",
+    "title": "Standard for Medicaid pharmacy subrogation transaction.",
+    "type": "GENERAL"
+  },
+  {
+    "policy_id": "HIPAA-102",
+    "section": "\u00a7164.102",
+    "title": "Statutory basis.",
+    "type": "GENERAL"
+  },
+  {
+    "policy_id": "HIPAA-103",
+    "section": "\u00a7164.103",
+    "title": "Definitions.",
+    "type": "GENERAL"
+  },
+  {
+    "policy_id": "HIPAA-104",
+    "section": "\u00a7164.104",
+    "title": "Applicability.",
+    "type": "GENERAL"
+  },
+  {
+    "policy_id": "HIPAA-105",
+    "section": "\u00a7164.105",
+    "title": "Organizational requirements.",
+    "type": "PROHIBITION"
+  },
+  {
+    "policy_id": "HIPAA-106",
+    "section": "\u00a7164.106",
+    "title": "Relationship to other parts.",
+    "type": "REQUIREMENT"
+  },
+  {
+    "policy_id": "HIPAA-107",
+    "section": "\u00a7164.302",
+    "title": "Applicability.",
+    "type": "REQUIREMENT"
+  },
+  {
+    "policy_id": "HIPAA-108",
+    "section": "\u00a7164.304",
+    "title": "Definitions.",
+    "type": "CONDITIONAL"
+  },
+  {
+    "policy_id": "HIPAA-109",
+    "section": "\u00a7164.306",
+    "title": "Security standards: General rules.",
+    "type": "PERMISSION"
+  },
+  {
+    "policy_id": "HIPAA-110",
+    "section": "\u00a7164.308",
+    "title": "Administrative safeguards.",
+    "type": "REQUIREMENT"
+  },
+  {
+    "policy_id": "HIPAA-111",
+    "section": "\u00a7164.310",
+    "title": "Physical safeguards.",
+    "type": "REQUIREMENT"
+  },
+  {
+    "policy_id": "HIPAA-112",
+    "section": "\u00a7164.312",
+    "title": "Technical safeguards.",
+    "type": "REQUIREMENT"
+  },
+  {
+    "policy_id": "HIPAA-113",
+    "section": "\u00a7164.314",
+    "title": "Organizational requirements.",
+    "type": "REQUIREMENT"
+  },
+  {
+    "policy_id": "HIPAA-114",
+    "section": "\u00a7164.316",
+    "title": "Policies and procedures and documentation requirements.",
+    "type": "REQUIREMENT"
+  },
+  {
+    "policy_id": "HIPAA-115",
+    "section": "\u00a7164.318",
+    "title": "Compliance dates for the initial implementation of the security standards.",
+    "type": "REQUIREMENT"
+  },
+  {
+    "policy_id": "HIPAA-116",
+    "section": "\u00a7164.400",
+    "title": "Applicability.",
+    "type": "REQUIREMENT"
+  },
+  {
+    "policy_id": "HIPAA-117",
+    "section": "\u00a7164.402",
+    "title": "Definitions.",
+    "type": "GENERAL"
+  },
+  {
+    "policy_id": "HIPAA-118",
+    "section": "\u00a7164.404",
+    "title": "Notification to individuals.",
+    "type": "REQUIREMENT"
+  },
+  {
+    "policy_id": "HIPAA-119",
+    "section": "\u00a7164.406",
+    "title": "Notification to the media.",
+    "type": "REQUIREMENT"
+  },
+  {
+    "policy_id": "HIPAA-120",
+    "section": "\u00a7164.408",
+    "title": "Notification to the Secretary.",
+    "type": "REQUIREMENT"
+  },
+  {
+    "policy_id": "HIPAA-121",
+    "section": "\u00a7164.410",
+    "title": "Notification by a business associate.",
+    "type": "REQUIREMENT"
+  },
+  {
+    "policy_id": "HIPAA-122",
+    "section": "\u00a7164.412",
+    "title": "Law enforcement delay.",
+    "type": "REQUIREMENT"
+  },
+  {
+    "policy_id": "HIPAA-123",
+    "section": "\u00a7164.414",
+    "title": "Administrative requirements and burden of proof.",
+    "type": "REQUIREMENT"
+  },
+  {
+    "policy_id": "HIPAA-124",
+    "section": "\u00a7164.500",
+    "title": "Applicability.",
+    "type": "REQUIREMENT"
+  },
+  {
+    "policy_id": "HIPAA-125",
+    "section": "\u00a7164.501",
+    "title": "Definitions.",
+    "type": "GENERAL"
+  },
+  {
+    "policy_id": "HIPAA-126",
+    "section": "\u00a7164.502",
+    "title": "Uses and disclosures of protected health information: General rules.",
+    "type": "PERMISSION"
+  },
+  {
+    "policy_id": "HIPAA-127",
+    "section": "\u00a7164.504",
+    "title": "Uses and disclosures: Organizational requirements.",
+    "type": "PERMISSION"
+  },
+  {
+    "policy_id": "HIPAA-128",
+    "section": "\u00a7164.506",
+    "title": "Uses and disclosures to carry out treatment, payment, or health care operations.",
+    "type": "PERMISSION"
+  },
+  {
+    "policy_id": "HIPAA-129",
+    "section": "\u00a7164.508",
+    "title": "Uses and disclosures for which an authorization is required.",
+    "type": "PROHIBITION"
+  },
+  {
+    "policy_id": "HIPAA-130",
+    "section": "\u00a7164.509",
+    "title": "Uses and disclosures for which an attestation is required.",
+    "type": "PROHIBITION"
+  },
+  {
+    "policy_id": "HIPAA-131",
+    "section": "\u00a7164.510",
+    "title": "Uses and disclosures requiring an opportunity for the individual to agree or to object.",
+    "type": "PERMISSION"
+  },
+  {
+    "policy_id": "HIPAA-132",
+    "section": "\u00a7164.512",
+    "title": "Uses and disclosures for which an authorization or opportunity to agree or object is not required.",
+    "type": "PERMISSION"
+  },
+  {
+    "policy_id": "HIPAA-133",
+    "section": "\u00a7164.514",
+    "title": "Other requirements relating to uses and disclosures of protected health information.",
+    "type": "PERMISSION"
+  },
+  {
+    "policy_id": "HIPAA-134",
+    "section": "\u00a7164.520",
+    "title": "Notice of privacy practices for protected health information.",
+    "type": "PERMISSION"
+  },
+  {
+    "policy_id": "HIPAA-135",
+    "section": "\u00a7164.522",
+    "title": "Rights to request privacy protection for protected health information.",
+    "type": "PERMISSION"
+  },
+  {
+    "policy_id": "HIPAA-136",
+    "section": "\u00a7164.524",
+    "title": "Access of individuals to protected health information.",
+    "type": "REQUIREMENT"
+  },
+  {
+    "policy_id": "HIPAA-137",
+    "section": "\u00a7164.526",
+    "title": "Amendment of protected health information.",
+    "type": "REQUIREMENT"
+  },
+  {
+    "policy_id": "HIPAA-138",
+    "section": "\u00a7164.528",
+    "title": "Accounting of disclosures of protected health information.",
+    "type": "PROHIBITION"
+  },
+  {
+    "policy_id": "HIPAA-139",
+    "section": "\u00a7164.530",
+    "title": "Administrative requirements.",
+    "type": "PROHIBITION"
+  },
+  {
+    "policy_id": "HIPAA-140",
+    "section": "\u00a7164.532",
+    "title": "Transition provisions.",
+    "type": "PERMISSION"
+  },
+  {
+    "policy_id": "HIPAA-141",
+    "section": "\u00a7164.534",
+    "title": "Compliance dates for initial implementation of the privacy standards.",
+    "type": "REQUIREMENT"
+  },
+  {
+    "policy_id": "HIPAA-142",
+    "section": "\u00a7164.535",
+    "title": "Severability.",
+    "type": "PROHIBITION"
+  }
+]

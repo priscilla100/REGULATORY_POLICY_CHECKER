@@ -1,0 +1,44 @@
+# HIPAA Domain - Universe of entities
+# Generated for two-tier verification
+
+# Entities and actors
+Hospital1
+Hospital2
+Clinic1
+Provider1
+Physician1
+Pharmacy1
+@HospitalA
+
+# Protected Health Information
+MedicalRecord1
+XRay1
+XRayScan1
+LabResult1
+Prescription1
+PrescriptionInfo1
+@AnyPHI
+@phi_medrec_001
+
+# Recipients
+Specialist1
+Researcher1
+FamilyMember1
+Grandma1
+PublicHealthDept1
+@GrandmaCaregiver
+@Recipient
+
+# Purpose Constants (MUST have @ prefix)
+@Treatment
+@Payment
+@HealthcareOperations
+@Research
+@PublicHealth
+@Emergency
+@InformalCare
+
+# Patients
+@Alice
+@PatientBob
+Patient1

@@ -1,0 +1,248 @@
+regulation HIPAA_PROCEDURAL version "2024.0"
+description "Tier 2: Procedural Rules - Compliance Requirements"
+
+type declaration starts
+type Entity
+type PHI
+type Auth
+type Purpose
+type declaration ends
+
+policy starts
+
+@["§160.103 - Definitions."]
+forall entity, phi, purpose.
+  (coveredEntity(entity) and protectedHealthInfo(phi))
+  implies
+  (coveredEntity(entity) and protectedHealthInfo(phi))
+;
+
+@["§160.202 - Definitions."]
+forall entity, stateReq, federalReq.
+  (coveredEntity(entity) or businessAssociate(entity))
+  implies
+  not(stateReq and federalReq and impossible_comply_both(entity, stateReq, federalReq))
+;
+
+forall entity, stateReq, federalReq, purpose.
+  (coveredEntity(entity) or businessAssociate(entity))
+  implies
+  not(stateReq and federalReq and obstacles_full_purposes(stateReq, federalReq, purpose))
+;
+
+@["§160.203 - General rule and exceptions."]
+forall hipaaStandard, stateProvision.
+  (hipaaStandard != stateProvision and 
+   contraryToStateProvision(hipaaStandard, stateProvision))
+  implies
+  preemptsStateProvision(hipaaStandard, stateProvision)
+;
+
+forall hipaaStandard, stateProvision.
+  (hipaaStandard != stateProvision and 
+   contraryToStateProvision(hipaaStandard, stateProvision) and
+   (secretaryDetermination(stateProvision, @FraudPrevention) or
+    secretaryDetermination(stateProvision, @StateRegulation)))
+  implies
+  not(preemptsStateProvision(hipaaStandard, stateProvision))
+;
+
+@["§160.402 - Basis for a civil money penalty."]
+forall entity.
+  ((coveredEntity(entity) or businessAssociate(entity)) and
+   violatesAdminSimplificationProvision(entity))
+  implies
+  civilMoneyPenaltyImposed(entity)
+;
+
+@["§160.530 - Sanctions."]
+forall person, order, action, hearing.
+  (person(person) and 
+   order(order) and 
+   action(action) and
+   hearing(hearing) and
+   (failsToComplyWithOrder(person, order) or 
+    failsToDefendAction(person, action) or 
+    misconductInterferesWithHearing(person, hearing)))
+  implies
+  sanctionMayBeApplied(person)
+;
+
+@["§164.105 - Organizational requirements."]
+forall entity, requirement.
+  (coveredEntity(entity) and hybridEntity(entity) and 
+   not(requirement = section164_105) and 
+   not(requirement = section164_314) and 
+   not(requirement = section164_504))
+  implies
+  appliesToHealthCareComponentOnly(entity, requirement)
+;
+
+@["§164.304 - Definitions."]
+forall entity, phi.
+  (coveredEntity(entity) and protectedHealthInfo(phi))
+  implies
+  (hasPrivacyOfficer(entity) and hasSecurityOfficer(entity))
+;
+
+@["§164.306 - Security standards: General rules."]
+forall entity, phi.
+  ((coveredEntity(entity) or businessAssociate(entity)) and 
+   protectedHealthInfo(phi))
+  implies
+  (hasSecurityOfficer(entity) and
+   minimumNecessaryApplied(entity, entity, phi))
+;
+
+@["§164.308 - Administrative safeguards."]
+forall ce.
+  (coveredEntity(ce) or businessAssociate(ce))
+  implies
+  hasSecurityOfficer(ce)
+;
+
+@["§164.310 - Physical safeguards."]
+forall entity.
+  (coveredEntity(entity) or businessAssociate(entity))
+  implies
+  hasSecurityOfficer(entity)
+;
+
+@["§164.312 - Technical safeguards."]
+forall entity, phi, accessor.
+  ((coveredEntity(entity) or businessAssociate(entity)) and 
+   protectedHealthInfo(phi) and
+   use(accessor, phi, anyPurpose))
+  implies
+  permittedUseOrDisclosure(entity, accessor, phi, anyPurpose)
+;
+
+@["§164.314 - Organizational requirements."]
+forall ce, ba, phi, purpose.
+  (coveredEntity(ce) and businessAssociate(ba) and protectedHealthInfo(phi) and
+   disclose(ce, ba, phi, purpose))
+  implies
+  (permittedUseOrDisclosure(ba, anyRecipient, phi, purpose) and
+   minimumNecessaryApplied(ba, anyRecipient, phi))
+;
+
+@["§164.316 - Policies and procedures and documentation requirements."]
+forall entity.
+  (coveredEntity(entity) or businessAssociate(entity))
+  implies
+  (hasPrivacyOfficer(entity) and hasSecurityOfficer(entity))
+;
+
+@["§164.402 - Definitions."]
+forall entity1, entity2, phi, purpose.
+  (protectedHealthInfo(phi) and
+   (disclose(entity1, entity2, phi, purpose) or use(entity1, phi, purpose)) and
+   not(permittedUseOrDisclosure(entity1, entity2, phi, purpose)))
+  implies
+  breach(entity1, entity2, phi, purpose)
+;
+
+@["§164.404 - Notification to individuals."]
+forall ce, individual, phi.
+  (coveredEntity(ce) and protectedHealthInfo(phi) and
+   (accessed(individual, phi) or acquired(individual, phi) or 
+    use(individual, phi, anyPurpose) or disclose(ce, individual, phi, anyPurpose)) and
+   breachDiscovered(ce, phi))
+  implies
+  notifyIndividual(ce, individual, phi)
+;
+
+@["§164.408 - Notification to the Secretary."]
+forall ce, phi.
+  (coveredEntity(ce) and protectedHealthInfo(phi) and
+   exists breach_event. (breachDiscovered(ce, phi, breach_event)))
+  implies
+  eventually(notifySecretary(ce, phi))
+;
+
+@["§164.501 - Definitions."]
+forall entity.
+  (coveredEntity(entity) and
+   (penalOrCorrectionalFacility(entity) or jail(entity) or reformatory(entity) or 
+    detentionCenter(entity) or workFarm(entity) or halfwayHouse(entity) or 
+    residentialCommunityProgramCenter(entity)) and
+   (operatedByUS(entity) or operatedByState(entity) or operatedByTerritory(entity) or 
+    operatedByPoliticalSubdivision(entity) or operatedByIndianTribe(entity) or 
+    underContractToUS(entity) or underContractToState(entity) or 
+    underContractToTerritory(entity) or underContractToPoliticalSubdivision(entity) or 
+    underContractToIndianTribe(entity)) and
+   (confinementPurpose(entity) or rehabilitationPurpose(entity)) and
+   (chargedPersons(entity) or convictedPersons(entity)))
+  implies
+  correctionalInstitution(entity)
+;
+
+@["§164.502 - Uses and disclosures of protected health information: General rules."]
+forall entity, recipient, phi, purpose.
+  ((coveredEntity(entity) or businessAssociate(entity)) and 
+   protectedHealthInfo(phi) and
+   (use(entity, phi, purpose) or disclose(entity, recipient, phi, purpose)) and
+   not(permittedUseOrDisclosure(entity, recipient, phi, purpose)) and
+   not(requiredByLaw(purpose)))
+  implies
+  false
+;
+
+@["§164.504 - Uses and disclosures: Organizational requirements."]
+forall entity.
+  (coveredEntity(entity) and 
+   (use(entity, phi, purpose) or disclose(entity, recipient, phi, purpose)))
+  implies
+  (hasPrivacyOfficer(entity) and hasSecurityOfficer(entity) and
+   minimumNecessaryApplied(entity, recipient, phi))
+;
+
+@["§164.514 - Other requirements relating to uses and disclosures of protected health information."]
+forall phi.
+  (protectedHealthInfo(phi) and
+   not(identifiesIndividual(phi)) and
+   not(reasonableBasisToIdentify(phi)))
+  implies
+  not(individuallyIdentifiableHealthInfo(phi))
+;
+
+@["§164.520 - Notice of privacy practices for protected health information."]
+forall individual, ce, phi.
+  (coveredEntity(ce) and protectedHealthInfo(phi))
+  implies
+  (exists notice. 
+    (contains(notice, usesAndDisclosures(ce, phi)) and
+     contains(notice, individualRights(individual, phi)) and
+     contains(notice, legalDuties(ce, phi)) and
+     hasRightToNotice(individual, notice)))
+;
+
+@["§164.528 - Accounting of disclosures of protected health information."]
+forall individual, ce, phi, t_request, t_disclosure.
+  (coveredEntity(ce) and protectedHealthInfo(phi) and 
+   disclose(ce, anyRecipient, phi, anyPurpose) and
+   temporallyBefore(t_disclosure, t_request) and
+   temporallyWithinSixYears(t_disclosure, t_request) and
+   not(purposeIsTPO(anyPurpose)) and
+   not(disclose(ce, individual, phi, anyPurpose)))
+  implies
+  hasRightToAccounting(individual, ce, phi, t_disclosure)
+;
+
+@["§164.530 - Administrative requirements."]
+forall ce.
+  coveredEntity(ce)
+  implies
+  hasPrivacyOfficer(ce)
+;
+
+@["§164.532 - Transition provisions."]
+forall ce, recipient, phi, purpose.
+  (coveredEntity(ce) and protectedHealthInfo(phi) and
+   (use(ce, phi, purpose) or disclose(ce, recipient, phi, purpose)) and
+   hasAuthorization(ce, recipient, phi))
+  implies
+  permittedUseOrDisclosure(ce, recipient, phi, purpose)
+;
+
+policy ends

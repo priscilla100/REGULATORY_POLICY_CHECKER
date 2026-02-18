@@ -1,0 +1,17 @@
+# HIPAA Facts - Current state
+# Modify these for your specific scenario
+
+# Covered Entities
+("coveredEntity", "Hospital1");
+coveredEntity(@HospitalA)
+
+# Protected Health Information
+("protectedHealthInfo", "MedicalRecord1");
+protectedHealthInfo(XRay1)
+
+# Family Relationships
+("familyMember", "Grandma1", "Patient1");
+
+# Example Disclosures (uncomment to test)
+# disclose(Hospital1, Grandma1, XRay1, @InformalCare)
+# disclose(Pharmacy1, FamilyMember1, Prescription1, @Treatment)

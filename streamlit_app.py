@@ -3,18 +3,22 @@ import json
 import subprocess
 import os
 import re
-import time
 import pandas as pd
-import ast
 from anthropic import Anthropic
 from datetime import datetime
 from dotenv import load_dotenv
-import PyPDF2
-from io import BytesIO
-from utils.utils import EXPERIMENTS, display_simple_result,display_agent4_result,display_experiment_result, experiment_baseline, experiment_rag, experiment_agent4compliance,MultiRegulationPipeline
-# from utils.crewai_agent_system import ComplianceAgentSystem
-from utils.rag_csv_export import RAGPolicyExporter
-from utils.crewai_policy import multi_agent_compliance_system
+from utils.utils import MultiRegulationPipeline
+from utils.display import display_unified_result
+from pages.baseline import experiment_baseline
+from pages.rag import RAGPolicyExporter, experiment_rag
+from config import get_precis_path
+from pages.methodology import render_methodology_page
+from pages.pipeline_two_tier import pipeline_with_two_tier_verification
+from pages.multi_agent_two_tier import multi_agent_with_two_tier_verification
+from utils.comparison_utils import display_comparison_table_st
+from utils.pipeline_integrated import pipeline_with_two_tier_verification
+from utils.multi_agent_integrated import multi_agent_with_two_tier_verification
+from utils.comparison_utils import display_comparison_table_st
 load_dotenv()
 
 st.set_page_config(
@@ -24,21 +28,11 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-PRECIS_PATH = os.environ.get(
-    "PRECIS_PATH",
-    "/Users/priscilladanso/Documents/STONYBROOK/RESEARCH/TOWARDDISSERTATION/IMPLEMENTATION/policy_checker/precis"
-)
+PRECIS_PATH = get_precis_path()
 
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY")
 
-# Initialize agent system
 
-# agent_system = ComplianceAgentSystem(
-#     precis_path=PRECIS_PATH,
-#     rag_csv_path=None,  # Will be created/used if available
-#     anthropic_key=ANTHROPIC_API_KEY
-# )
-    
 # ============================================
 # SESSION STATE INITIALIZATION
 # ============================================
@@ -66,7 +60,7 @@ with st.sidebar:
     st.markdown("## 📑 Navigation")
     page = st.radio(
         "Select Page:",
-        ["Compliance Checker", "Document → FOTL", "What-If Simulator", "System Status"],
+        ["Compliance Checker", "Methodology & Approaches", "Document → FOTL", "What-If Simulator", "System Status"],
         key='page_selector'
     )
     st.markdown("---")
@@ -114,8 +108,9 @@ if page == "Compliance Checker":
     # Example queries
     with st.expander("💡 Example Questions"):
         examples = [
+            "Can my family pick up prescriptions for me?",
             "Can a hospital share patient data with researchers?",
-            "Is consent required for treatment-related uses of PHI?",
+            "Can a hospital use patient records for treatment without consent?",
             "Can my grandma get my x-ray scan?",
             "Can hospitals share data with business associates?",
             "Must covered entities have a privacy officer?",
@@ -140,7 +135,6 @@ if page == "Compliance Checker":
     if st.button("🚀 Check Compliance", type="primary"):
         if not query.strip():
             st.warning("⚠️ Please enter a question")
-
         elif not ANTHROPIC_API_KEY:
             st.error("❌ Please set ANTHROPIC_API_KEY")
         else:
@@ -153,107 +147,67 @@ if page == "Compliance Checker":
                 if exp2:
                     results.append(experiment_rag(query, client))
                 if exp3:
-                    results.append(experiment_agent4compliance(query, client))
+                    results.append(pipeline_with_two_tier_verification(query, client))
                 if exp4:
-                    results.append(multi_agent_compliance_system(query, client))
-            # Display
-            for r in results:
-                with st.expander(f"📌 {r['name']}", expanded=True):
-                    # display_agent4_result(r)
+                    results.append(multi_agent_with_two_tier_verification(query, client))
 
-                    cols = st.columns(3)
-                    cols[0].metric("Time", f"{r['duration']:.1f}s")
-                    cols[1].metric("Method", r['method'])
-                    if 'compliance_status' in r:
-                        # Show explicit compliance status
-                        status = r['compliance_status']
-                        if "COMPLIANT" in status and "NOT" not in status:
-                            cols[2].metric("Status", "✅ COMPLIANT", delta="Verified")
-                        elif "NOT COMPLIANT" in status or "VIOLATION" in status:
-                            cols[2].metric("Status", "👎 VIOLATION ❌", delta="Failed")
-                        else:
-                            cols[2].metric("Status", "⚠️ UNKNOWN", delta="Inconclusive")
-                    elif 'verified' in r:
-                        cols[2].metric("Verified", "✅" if r['verified'] else "❌")
-                    
-                    st.markdown("**Pipeline:**")
-                    for step in r['steps']:
-                        st.markdown(f"- {step}")
-                    
-                    if 'formula' in r:
-                        with st.expander("🔬 Formula"):
-                            st.code(r['formula'])
-                    
-                    if 'extracted_facts' in r:
-                        with st.expander("📋 Facts"):
-                            st.json(r['extracted_facts'])
-                    
-                    if 'precis_result' in r and 'pipeline_steps' in r['precis_result']:
-                        with st.expander("🔧 OCaml Pipeline (Lexer → Parser → Type Check → Evaluator)"):
-                            for step in r['precis_result']['pipeline_steps']:
-                                st.markdown(f"- {step}")
-                            
-                            # Show validation warnings if any
-                            if any("⚠️" in s for s in r['steps']):
-                                st.warning("**Validation Issues Detected:**")
-                                for step in r['steps']:
-                                    if "⚠️" in step:
-                                        st.markdown(f"- {step}")
-                            
-                            st.markdown("**Full Output:**")
-                            st.code(r['precis_result']['output'], language="text")
-                    
-                    st.info(r['answer'])
-           
-            # Display results with different formatters
-            for r in results:
-                with st.expander(f"📌 {r['name']}", expanded=True):
-                    
-                    # Check if this is a Pipeline/Agentic result (has precis_result)
-                    if 'precis_result' in r:
-                        # USE FANCY FORMATTING for Pipeline ⭐ and Agentic
-                        display_agent4_result(r)
-                    else:
-                        # USE SIMPLE FORMATTING for Baseline and RAG
-                        display_simple_result(r)
-
-
-            # # Display all results with unified formatting
-            for r in results:
-                with st.expander(f"📌 {r['name']}", expanded=True):
-                    display_experiment_result(r)
-        
-            # FIXED: Comparison section - results is a list, not dict
+            # ====================================================================
+            # CONSISTENT DISPLAY WITH PROMINENT TABS
+            # ====================================================================
+            
             st.markdown("---")
-            st.markdown("## 📈 Comparison")
+            st.markdown("## 📊 Results")
             
-            comparison_data = []
-            for result in results:
-                if "error" not in result:
-                    # Determine experiment type from result name
-                    exp_key = None
-                    if "Baseline" in result['name']:
-                        exp_key = "baseline_no_context"
-                    elif "RAG" in result['name']:
-                        exp_key = "rag"
-                    elif "Pipeline" in result['name']:
-                        exp_key = "pipeline"
-                    elif "Agentic" in result['name']:
-                        exp_key = "agentic"
-                    
-                    if exp_key:
-                        comparison_data.append({
-                            "Experiment": EXPERIMENTS[exp_key]["exp_name"],
-                            "Duration (s)": f"{result.get('duration', 0):.2f}",
-                            "Steps": len(result.get('steps', [])),
-                            "Uses Retrieval": "✅" if EXPERIMENTS[exp_key]["use_retrieval"] else "❌",
-                            "Uses Précis": "✅" if EXPERIMENTS[exp_key]["use_precis"] else "❌",
-                        })
+            if len(results) > 1:
+                # Create PROMINENT tabs with custom styling
+                tab_labels = [r['name'] for r in results]
+                
+                # Add custom CSS for prominent tabs
+                st.markdown("""
+                <style>
+                .stTabs [data-baseweb="tab-list"] {
+                    gap: 8px;
+                    background-color: #f0f2f6;
+                    padding: 10px;
+                    border-radius: 10px;
+                }
+                .stTabs [data-baseweb="tab"] {
+                    height: 60px;
+                    background-color: white;
+                    border-radius: 8px;
+                    padding: 10px 20px;
+                    font-size: 18px;
+                    font-weight: 600;
+                    border: 2px solid #e0e0e0;
+                }
+                .stTabs [aria-selected="true"] {
+                    background-color: #0068c9 !important;
+                    color: white !important;
+                    border: 2px solid #0068c9 !important;
+                }
+                </style>
+                """, unsafe_allow_html=True)
+                
+                tabs = st.tabs(tab_labels)
+                
+                for tab, result in zip(tabs, results):
+                    with tab:
+                        display_unified_result(result, query)
+            else:
+                # Single result - no tabs needed
+                for result in results:
+                    display_unified_result(result, query)
+        
+            # ====================================================================
+            # COMPARISON TABLE - FIXED VERSION (REPLACES OLD CODE)
+            # ====================================================================
             
-            if comparison_data:
-                st.table(comparison_data)
+            display_comparison_table_st(results, query, st)
             
-            # Download results
+            # ====================================================================
+            # DOWNLOAD SECTION (KEEP AS IS)
+            # ====================================================================
+            
             st.markdown("---")
             st.markdown("### 💾 Download Results")
             
@@ -264,6 +218,11 @@ if page == "Compliance Checker":
                 file_name=f"compliance_results_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json",
                 mime="application/json"
             )
+
+elif page == "Methodology & Approaches":
+    render_methodology_page() 
+
+
 # ============================================
 # PAGE 2: DOCUMENT → FOTL TRANSLATION
 # ============================================
